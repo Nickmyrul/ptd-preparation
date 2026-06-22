@@ -28,7 +28,7 @@ Topic given ~20 min ahead — use it to **outline, not memorise word-for-word**.
 > *"Terima kasih tuan/puan pengerusi. Hari ini saya akan menyentuh [tajuk] melalui tiga perkara: pertama…, kedua…, dan ketiga…."*
 > *"Thank you, chairperson. Today I will address [topic] through three points: first…, second…, and third…."*
 
-> 🖥️ **5 contoh ucapan penuh (deck):** buka **[`pengucapan-awam-contoh.html`](pengucapan-awam-contoh.html)** — lima ucapan 5-minit dirangka penuh (Pembukaan → 3 Isi PEEL → Penutup) dengan fakta isu semasa. Tukar tajuk, kekalkan struktur. / Five fully-worked 5-minute speeches in deck form.
+> 🖥️ **Deck pengucapan awam (gabungan):** buka **[`pengucapan-deck.html`](pengucapan-deck.html)** — **A) teknik penyampaian** (kaedah Joseph Tsar: penanda wacana, kata kerja hidup, aliran, tempo) + **B) 5 contoh ucapan** 5-minit penuh. Semua dwibahasa. / Combined: delivery craft (Tsar method) + 5 worked speeches, all bilingual.
 
 ---
 
@@ -70,8 +70,6 @@ The real challenge = **structure in 1 minute**. Don't chase perfect words — pi
 > 📌 *Jika anda ada kaedah khusus dari rujukan luar (cth. utas X yang dikongsi), tampal isinya di sini supaya kita gabungkan dengan rangka di atas.* / *If you have a specific method from an external source (e.g. the shared X thread), paste its content here and we'll merge it with the frameworks above.*
 
 ---
-
-> 🗣️ **Teknik aliran (deck):** buka **[`teknik-pengucapan.html`](teknik-pengucapan.html)** — fokus *cara*, bukan isu: bank penanda wacana (penyambung), kata kerja mati→hidup, teknik aliran (kata gema, jambatan "so what", rangkap tiga), buang filler. Inspirasi: pendekatan articulacy Joseph Tsar. / Delivery-craft deck: connectors, live verbs, flow, fillers.
 
 ## 🎤 Teknik Penyampaian (kedua-dua) / Delivery (both tasks)
 - **Kontak mata** merata; **bahasa badan** terbuka; senyum ringkas.

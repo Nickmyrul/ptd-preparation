@@ -29,6 +29,15 @@
 - ExamPTD — PAC: https://www.examptd.info/ptd-assessment-centre-pac/
 - Pengalaman interview PTD M41 (nadz.my): https://nadz.my/interview-ptd/
 
+## Pengucapan Awam / Public Speaking
+- **Joseph Tsar** (articulacy / BetterSpeak): https://www.youtube.com/@ttsar · https://www.betterspeakpro.com
+- Deck teknik + contoh: [`../01-pac/pengucapan-deck.html`](../01-pac/pengucapan-deck.html)
+
+### YouTube MCP (riset video Joseph Tsar dll.)
+Repo ini dikonfigurasikan dengan **YouTube MCP server** ([ZubeidHendricks/youtube-mcp-server](https://github.com/ZubeidHendricks/youtube-mcp-server)) dalam [`../.mcp.json`](../.mcp.json) — membolehkan Claude Code mencari video & transkrip (cth. kaedah Joseph Tsar) terus dari sesi.
+- **Perlu:** tetapkan `YOUTUBE_API_KEY` (YouTube Data API v3) sebagai env var sebelum mula sesi. Server diaktifkan secara automatik oleh Claude Code pada sesi seterusnya.
+- Contoh guna: *"search Joseph Tsar videos and pull the transcript with the youtube tools."*
+
 ## Bahan Persediaan PTD (komuniti)
 - Cari kumpulan/komuniti calon PTD (Telegram/Facebook) untuk kongsi pengalaman PAC terkini.
 - Blog/pengalaman calon lepas (ambil sebagai panduan, sahkan dengan Lampiran rasmi).

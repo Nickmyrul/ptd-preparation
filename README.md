@@ -51,9 +51,7 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🖨️ **Ulang kaji luar talian (cetak/PDF):** buka **[`01-pac/isu-semasa-ringkasan.html`](01-pac/isu-semasa-ringkasan.html)** → tekan butang cetak → "Save as PDF". Semua 20 isu padat dalam beberapa muka A4. / Print/PDF revision sheet — all 20 issues on a few A4 pages.
 
-🎤 **Contoh pengucapan awam:** buka **[`01-pac/pengucapan-awam-contoh.html`](01-pac/pengucapan-awam-contoh.html)** — **5 ucapan 5-minit** dirangka penuh (Pembukaan → 3 Isi PEEL → Penutup). / 5 fully-worked example speeches.
-
-🗣️ **Teknik penyampaian (aliran):** buka **[`01-pac/teknik-pengucapan.html`](01-pac/teknik-pengucapan.html)** — bank penanda wacana, kata kerja hidup, teknik aliran &amp; tempo (bukan isu — cara). / Delivery craft: connectors, strong verbs, flow & pace.
+🎤 **Pengucapan awam (deck gabungan):** buka **[`01-pac/pengucapan-deck.html`](01-pac/pengucapan-deck.html)** — **Bahagian A: teknik** (kaedah Joseph Tsar — penanda wacana, kata kerja hidup, aliran, tempo) + **Bahagian B: 5 contoh ucapan** 5-minit penuh. Semua dwibahasa. / Combined deck: (A) delivery craft (Tsar method) + (B) 5 worked speeches, all bilingual.
 
 ---
 
