@@ -51,6 +51,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🖨️ **Ulang kaji luar talian (cetak/PDF):** buka **[`01-pac/isu-semasa-ringkasan.html`](01-pac/isu-semasa-ringkasan.html)** → tekan butang cetak → "Save as PDF". Semua 20 isu padat dalam beberapa muka A4. / Print/PDF revision sheet — all 20 issues on a few A4 pages.
 
+🎤 **Contoh pengucapan awam:** buka **[`01-pac/pengucapan-awam-contoh.html`](01-pac/pengucapan-awam-contoh.html)** — **5 ucapan 5-minit** dirangka penuh (Pembukaan → 3 Isi PEEL → Penutup). / 5 fully-worked example speeches.
+
 ---
 
 ## ✅ Tindakan Segera (mulai hari ini)

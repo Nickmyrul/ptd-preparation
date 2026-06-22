@@ -28,6 +28,8 @@ Topic given ~20 min ahead — use it to **outline, not memorise word-for-word**.
 > *"Terima kasih tuan/puan pengerusi. Hari ini saya akan menyentuh [tajuk] melalui tiga perkara: pertama…, kedua…, dan ketiga…."*
 > *"Thank you, chairperson. Today I will address [topic] through three points: first…, second…, and third…."*
 
+> 🖥️ **5 contoh ucapan penuh (deck):** buka **[`pengucapan-awam-contoh.html`](pengucapan-awam-contoh.html)** — lima ucapan 5-minit dirangka penuh (Pembukaan → 3 Isi PEEL → Penutup) dengan fakta isu semasa. Tukar tajuk, kekalkan struktur. / Five fully-worked 5-minute speeches in deck form.
+
 ---
 
 ## B) Pengucapan Spontan / Impromptu Speaking (BM/English · 1+4 min)
