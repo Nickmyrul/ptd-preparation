@@ -8,7 +8,7 @@ Current affairs are the **raw material** for the essay, public speaking, impromp
 
 > 🔎 **Riset mendalam isu / Deep-dive an issue:** repo ini ada skill **STORM** (`.claude/skills/storm-research/`). Dalam Claude Code, minta *"research <isu> with the storm-research skill"* untuk dapat ringkasan pelbagai sudut (amalan, akademik, skeptik, ekonomi, sejarah) + peta percanggahan + sumber. Sesuai sediakan **Issue Brief** dwibahasa di bawah. / Ask Claude to research any issue with the STORM skill for a multi-angle, cited brief.
 
-> 🖥️ **Bacaan harian / Daily reading:** buka **[`isu-semasa-deck.html`](isu-semasa-deck.html)** dalam pelayar (browser) — 15 isu teras dwibahasa dalam format pembentangan. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser — 15 bilingual issues, read daily.
+> 🖥️ **Bacaan harian / Daily reading:** buka **[`isu-semasa-deck.html`](isu-semasa-deck.html)** dalam pelayar (browser) — **20 isu teras** dwibahasa, setiap satu dengan "ayat padat" siap pakai + slaid sumber berpaut. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser — 20 bilingual issues, each with a ready soundbite + a linked sources slide.
 
 ---
 

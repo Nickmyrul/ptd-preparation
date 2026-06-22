@@ -47,7 +47,7 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 ➡️ Butiran penuh + rangka latihan (dwibahasa): [`01-pac/format-terkini.md`](01-pac/format-terkini.md)
 
-🖥️ **Bacaan harian isu semasa:** buka **[`01-pac/isu-semasa-deck.html`](01-pac/isu-semasa-deck.html)** dalam pelayar — 15 isu teras (dwibahasa) dalam format pembentangan. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser; 15 bilingual issues to read daily.
+🖥️ **Bacaan harian isu semasa:** buka **[`01-pac/isu-semasa-deck.html`](01-pac/isu-semasa-deck.html)** dalam pelayar — **20 isu teras** (dwibahasa) dengan ayat padat + slaid sumber. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser; 20 bilingual issues with soundbites + a sources slide, to read daily.
 
 ---
 
