@@ -32,6 +32,7 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 | [`03-temuduga/`](03-temuduga/) | Persediaan temu duga akhir (peringkat seterusnya) |
 | [`sumber/`](sumber/) | Pautan & bahan rujukan |
 | [`study-plan.md`](study-plan.md) | Jadual kira-detik (countdown) ke 4 Julai |
+| [`.claude/skills/storm-research/`](.claude/skills/storm-research/) | Skill **STORM** — riset isu semasa pelbagai sudut (guna dalam Claude Code) |
 
 ---
 

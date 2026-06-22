@@ -6,6 +6,8 @@ Current affairs are the **raw material** for the essay, public speaking, impromp
 
 > ⏱️ Fakta di bawah ialah **Jun 2026** — sahkan angka terkini sebelum ujian (sumber rasmi). / Figures below are as of **June 2026** — verify latest numbers before the exam.
 
+> 🔎 **Riset mendalam isu / Deep-dive an issue:** repo ini ada skill **STORM** (`.claude/skills/storm-research/`). Dalam Claude Code, minta *"research <isu> with the storm-research skill"* untuk dapat ringkasan pelbagai sudut (amalan, akademik, skeptik, ekonomi, sejarah) + peta percanggahan + sumber. Sesuai sediakan **Issue Brief** dwibahasa di bawah. / Ask Claude to research any issue with the STORM skill for a multi-angle, cited brief.
+
 ---
 
 ## 🧠 Templat "Issue Brief" 60-saat / 60-second Issue Brief template
