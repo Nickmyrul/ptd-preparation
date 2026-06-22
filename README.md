@@ -2,7 +2,7 @@
 
 Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan Jasmani Kebangsaan (UKJK)** bagi pengambilan **Kadet Pegawai Tadbir dan Diplomatik (PTD)** — Program Diploma Pascasiswazah Pengurusan Awam INTAN 2027.
 
-> Calon: **Nik Mohamad Amirul bin Nik Azhar** · Angka Giliran: **10260502**
+> Panduan persediaan peribadi. **Sahkan semua butiran rasmi** (tarikh, sesi, lokasi, dokumen) dalam e-mel/Lampiran SPA & Portal SPA. / Personal study guide — verify all official details against the SPA email & portal.
 
 ---
 
@@ -54,6 +54,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 🎤 **Pengucapan awam (deck gabungan):** buka **[`01-pac/pengucapan-deck.html`](01-pac/pengucapan-deck.html)** — **Bahagian A: teknik** (kaedah Joseph Tsar — penanda wacana, kata kerja hidup, aliran, tempo) + **Bahagian B: 5 contoh ucapan** 4–5 minit penuh, **setiap satu dalam BM & English (slaid berasingan)** dengan isyarat masa (⏱) dan kait dasar negara. / Combined deck: (A) delivery craft (Tsar method) + (B) 5 worked 4–5 min speeches, each in Malay & English with timing cues and national-policy links.
 
 🧩 **Rangka ucapan universal:** buka **[`01-pac/rangka-ucapan.html`](01-pac/rangka-ucapan.html)** — teknik + ayat siap pakai untuk **Pembukaan · Masalah · Penyelesaian · Cabaran · Penutup**, supaya mana-mana tajuk boleh diisi ke dalam rangka yang sama. / Universal speech framework: techniques + ready lines for Intro · Problem · Solution · Challenges · Closing — drop any topic into the same skeleton.
+
+🖨️ **Cheat-sheet rangka (cetak/PDF):** buka **[`01-pac/rangka-ucapan-cheatsheet.html`](01-pac/rangka-ucapan-cheatsheet.html)** → cetak → "Save as PDF". Semua ayat siap pakai dalam 1 muka A4 — guna semasa 20 minit persediaan. / Print/PDF cheat-sheet of all the ready lines on one A4 page for the prep window.
 
 ---
 
