@@ -8,7 +8,24 @@ Current affairs are the **raw material** for the essay, public speaking, impromp
 
 > 🔎 **Riset mendalam isu / Deep-dive an issue:** repo ini ada skill **STORM** (`.claude/skills/storm-research/`). Dalam Claude Code, minta *"research <isu> with the storm-research skill"* untuk dapat ringkasan pelbagai sudut (amalan, akademik, skeptik, ekonomi, sejarah) + peta percanggahan + sumber. Sesuai sediakan **Issue Brief** dwibahasa di bawah. / Ask Claude to research any issue with the STORM skill for a multi-angle, cited brief.
 
+> 🖥️ **Bacaan harian / Daily reading:** buka **[`isu-semasa-deck.html`](isu-semasa-deck.html)** dalam pelayar (browser) — 15 isu teras dwibahasa dalam format pembentangan. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser — 15 bilingual issues, read daily.
+
 ---
+
+## 📊 Fakta Pantas 2026 / Quick Facts (hafal angka ini)
+| Isu | Angka kunci |
+|---|---|
+| Belanjawan 2026 | **RM470b** (terbesar) · BUDI95 RON95 **RM1.99/L** |
+| RMK-13 (2026–2030) | **RM611b** · tema "Melakar Semula Pembangunan" |
+| Pertumbuhan KDNK | S1 2026 **+5.4%** · IMF 2026 **4.7%** · BNM 4–5% |
+| Inflasi | **1.5–2.3%** (rendah) |
+| Gaji minimum | **RM1,700** (1 Ogos 2025) · GLIC gaji wajar RM3,100 |
+| Semikonduktor (NSS) | Pelaburan **RM59.85b** (Jan'24–Sep'25) · E&E ≈ **25% KDNK** |
+| Pendidikan / TVET / Kesihatan | **RM67b** / **RM7.9b** / KKM **RM46.52b** |
+| Siber | **RUU Jenayah Siber** ganti Akta 1997 · CSCDC 2026 |
+| ASEAN | Pengerusi **2025 Malaysia** → **2026 Filipina** |
+
+> Angka boleh berubah — sahkan versi terkini sebelum ujian. / Verify before the exam.
 
 ## 🧠 Templat "Issue Brief" 60-saat / 60-second Issue Brief template
 Untuk setiap isu, hafal 4 baris ini (cukup untuk impromptu/esei/perbincangan):

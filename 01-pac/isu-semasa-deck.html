@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Isu Semasa PTD 2026 — Bacaan Harian / Daily Current-Affairs Deck</title>
+<style>
+/* ===== Token system (arctic-cool / corporate-clean inspired) ===== */
+:root{
+  --bg:#0f1822; --bg-soft:#13202c; --surface:#182838; --surface-2:#1f3346;
+  --border:#2a4156; --text-1:#eef5fb; --text-2:#b8cad9; --text-3:#7d93a6;
+  --accent:#4cc9f0; --accent-2:#56e39f; --accent-3:#ffd166;
+  --good:#56e39f; --warn:#ffd166; --bad:#ff6b6b;
+  --radius:16px; --radius-s:10px; --shadow:0 12px 40px rgba(0,0,0,.45);
+  --font-sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:var(--font-sans); background:var(--bg); color:var(--text-1);
+  overflow:hidden; -webkit-font-smoothing:antialiased;
+}
+.deck{height:100vh;width:100vw;position:relative}
+.slide{
+  position:absolute; inset:0; display:none; flex-direction:column;
+  padding:48px 64px 56px; opacity:0; transition:opacity .35s ease;
+  background:radial-gradient(1200px 600px at 80% -10%, rgba(76,201,240,.08), transparent 60%);
+}
+.slide.is-active{display:flex; opacity:1}
+.slide.center{justify-content:center; align-items:center; text-align:center}
+.kicker{font-size:14px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.h1{font-size:60px;line-height:1.05;font-weight:900;letter-spacing:-.02em;margin:14px 0}
+.h2{font-size:36px;line-height:1.1;font-weight:800;letter-spacing:-.01em;margin:6px 0 4px}
+.lede{font-size:19px;color:var(--text-2);max-width:60ch;line-height:1.5}
+.gradient-text{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.dim{color:var(--text-2)} .dim2{color:var(--text-3)}
+.en{color:var(--text-3);font-style:italic}
+/* issue grid */
+.brief{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px;flex:1;align-content:start}
+.qbox{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:16px 18px}
+.qbox h4{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-2);margin-bottom:8px}
+.qbox.stand h4{color:var(--accent-3)}
+.qbox p{font-size:16px;line-height:1.45;color:var(--text-1)}
+.qbox p .en{display:block;margin-top:6px;font-size:14px;line-height:1.4}
+.factbar{display:flex;gap:14px;flex-wrap:wrap;margin-top:6px}
+.pill{background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;color:var(--text-1)}
+.pill b{color:var(--accent)}
+/* footer chrome */
+.deck-footer{position:absolute;left:64px;right:64px;bottom:22px;display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--text-3)}
+.progress{position:absolute;left:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--accent),var(--accent-2));transition:width .35s ease;width:0}
+.toc{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px;width:100%}
+.tcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:14px 16px;font-size:15px}
+.tcard b{color:var(--accent);margin-right:6px}
+.usebox{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px;width:100%;max-width:880px}
+.usebox .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:18px 20px;text-align:left}
+.usebox .card h4{color:var(--accent);margin-bottom:8px;font-size:16px}
+.usebox .card p{font-size:14px;color:var(--text-2);line-height:1.5}
+.hint{position:absolute;top:18px;right:24px;font-size:12px;color:var(--text-3)}
+.num{font-size:13px;color:var(--text-3);font-weight:700}
+@media (max-width:820px){
+  .slide{padding:28px 24px 48px}.h1{font-size:38px}.h2{font-size:26px}
+  .brief{grid-template-columns:1fr}.toc{grid-template-columns:1fr}.usebox{grid-template-columns:1fr}
+  .deck-footer{left:24px;right:24px}
+}
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+<!-- 1. COVER -->
+<section class="slide center" data-title="Cover">
+  <p class="kicker">PTD · PAC · 2026 · Bacaan Harian</p>
+  <h1 class="h1">Isu Semasa <span class="gradient-text">Malaysia & Dunia</span></h1>
+  <p class="lede">15 isu teras untuk esei, pengucapan awam, impromptu &amp; perbincangan kumpulan. Baca <b>setiap hari</b> sehingga 4 Julai 2026.<br><span class="en">15 core issues for every PAC task — read daily until exam day.</span></p>
+  <div class="factbar" style="margin-top:26px;justify-content:center">
+    <span class="pill">Fakta: <b>Jun 2026</b></span>
+    <span class="pill">Dwibahasa <b>BM / EN</b></span>
+    <span class="pill">← → untuk navigasi</span>
+  </div>
+  <div class="deck-footer"><span>Nik Mohamad Amirul · PTD 2026</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 2. HOW TO USE -->
+<section class="slide center" data-title="Cara Guna">
+  <p class="kicker">Cara Guna Harian / How to use</p>
+  <h2 class="h2">15 minit sehari, sebut kuat</h2>
+  <div class="usebox">
+    <div class="card"><h4>1 · Baca + sebut</h4><p>Baca 3–4 isu sehari kuat-kuat (BM &amp; English). Pusing semua dalam ~4 hari, ulang. / Read 3–4 issues aloud daily; cycle all in ~4 days.</p></div>
+    <div class="card"><h4>2 · Hafal struktur, bukan ayat</h4><p>Kuasai <b>Apa · Kenapa · Dua sisi · Pendirian</b> setiap isu. / Master the 4-part brief, not a script.</p></div>
+    <div class="card"><h4>3 · Latih impromptu</h4><p>Cabut 1 isu rawak → 1 min fikir + 4 min cakap (PREP). / Pull a random issue and speak.</p></div>
+    <div class="card"><h4>4 · Kemas kini angka</h4><p>Sahkan statistik terkini sebelum ujian (sumber rasmi). / Verify latest figures before the exam.</p></div>
+  </div>
+  <div class="deck-footer"><span>Struktur: Apa / Kenapa / Dua Sisi / Pendirian</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 3. TOC -->
+<section class="slide" data-title="Senarai Isu">
+  <p class="kicker">Senarai Isu / Issue Index</p>
+  <h2 class="h2">15 isu teras</h2>
+  <div class="toc">
+    <div class="tcard"><b>01</b>Malaysia MADANI</div>
+    <div class="tcard"><b>02</b>Belanjawan 2026</div>
+    <div class="tcard"><b>03</b>RMK-13 (2026–2030)</div>
+    <div class="tcard"><b>04</b>Ekonomi &amp; pertumbuhan</div>
+    <div class="tcard"><b>05</b>Subsidi RON95 / BUDI95</div>
+    <div class="tcard"><b>06</b>SST, fiskal &amp; gaji minimum</div>
+    <div class="tcard"><b>07</b>Kos sara hidup</div>
+    <div class="tcard"><b>08</b>Semikonduktor &amp; FDI (NSS)</div>
+    <div class="tcard"><b>09</b>Digital, AI &amp; siber</div>
+    <div class="tcard"><b>10</b>Tenaga &amp; iklim (NETR)</div>
+    <div class="tcard"><b>11</b>Pendidikan &amp; TVET</div>
+    <div class="tcard"><b>12</b>Kesihatan</div>
+    <div class="tcard"><b>13</b>ASEAN &amp; dasar luar</div>
+    <div class="tcard"><b>14</b>Geopolitik global</div>
+    <div class="tcard"><b>15</b>Tadbir urus &amp; anti-rasuah</div>
+  </div>
+  <div class="deck-footer"><span>PTD · Isu Semasa 2026</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 01 MADANI -->
+<section class="slide" data-title="MADANI">
+  <p class="kicker">01 · Dasar Teras / Core Framework</p>
+  <h2 class="h2">Malaysia MADANI</h2>
+  <div class="factbar"><span class="pill">6 nilai: <b>KKDHKI</b></span><span class="pill">3 tonggak ekonomi</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Kerangka pembangunan negara dengan 6 nilai teras: Kemampanan, Kesejahteraan, Daya Cipta, Hormat, Keyakinan, Ihsan.<span class="en">National framework; 6 values: Sustainability, Prosperity, Innovation, Respect, Trust, Compassion.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Panduan semua dasar — Belanjawan &amp; RMK-13 berpaksi MADANI.<span class="en">Anchors every policy, incl. Budget & 13th Plan.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Visi nilai &amp; tata kelola jelas. (−) Cabaran ialah <i>pelaksanaan</i> & rakyat rasa kesannya.<span class="en">Clear values vs the challenge of real delivery.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Sokong; nilai mesti diterjemah jadi hasil konkrit untuk rakyat.<span class="en">Support — values must convert to tangible outcomes.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>3 tonggak: naik siling · naik lantai · perkukuh tata kelola</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 02 Belanjawan 2026 -->
+<section class="slide" data-title="Belanjawan 2026">
+  <p class="kicker">02 · Ekonomi / Fiscal</p>
+  <h2 class="h2">Belanjawan 2026 — "Belanjawan Rakyat"</h2>
+  <div class="factbar"><span class="pill">Nilai: <b>RM470 bilion</b> (terbesar)</span><span class="pill">Belanjawan MADANI ke-4</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Belanjawan terbesar dalam sejarah; fokus perlindungan sosial + pelaburan masa depan (semikonduktor, tenaga, digital, startup).<span class="en">Largest-ever budget; social protection + future investment.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Lindungi isi rumah daripada kos sara hidup sambil memacu pertumbuhan, tanpa menambah hutang melampau.<span class="en">Shield households, drive growth, contain debt.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Bantuan luas &amp; bersasar. (−) Ruang fiskal terhad; perlu disiplin perbelanjaan.<span class="en">Broad targeted aid vs limited fiscal space.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Belanjawan progresif; kejayaan bergantung pada <i>kebersasaran</i> &amp; ketelusan.<span class="en">Progressive — success hinges on targeting & transparency.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>3 tonggak: naik siling · naik lantai · pacu reformasi</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 03 RMK-13 -->
+<section class="slide" data-title="RMK-13">
+  <p class="kicker">03 · Perancangan / Development Plan</p>
+  <h2 class="h2">Rancangan Malaysia Ke-13 (2026–2030)</h2>
+  <div class="factbar"><span class="pill">Peruntukan: <b>RM611 bilion</b></span><span class="pill">Tema: "Melakar Semula Pembangunan"</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Pelan 5 tahun; fokus industri High-Growth High-Value (HGHV) — semikonduktor, tenaga boleh baharu, digital, pelancongan.<span class="en">5-year plan; HGHV industries + balanced regional growth.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Beralih ke ekonomi penciptaan nilai &amp; rapatkan jurang luar bandar (jalan, air, elektrik, internet).<span class="en">Shift to value-creation; close rural gaps.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Hala tuju jelas &amp; bajet besar. (−) Risiko pelaksanaan &amp; persaingan bakat global.<span class="en">Clear direction vs execution & talent risks.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Sokong; pelaksanaan berdisiplin &amp; pembangunan seimbang ialah kunci.<span class="en">Support — disciplined, balanced delivery is key.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Berpaksi 3 teras Ekonomi MADANI</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 04 Ekonomi & pertumbuhan -->
+<section class="slide" data-title="Pertumbuhan Ekonomi">
+  <p class="kicker">04 · Makroekonomi / Macro</p>
+  <h2 class="h2">Pertumbuhan Ekonomi 2026</h2>
+  <div class="factbar"><span class="pill">KDNK S1 2026: <b>5.4%</b></span><span class="pill">IMF 2026: <b>4.7%</b></span><span class="pill">BNM: 4–5%</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Ekonomi berkembang 5.4% pada suku pertama 2026; disokong permintaan domestik &amp; projek mega (MRT3, ECRL, Pan Borneo, pusat data).<span class="en">Q1 2026 GDP +5.4%; domestic demand & mega-projects.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Pasaran buruh kukuh, eksport pelbagai &amp; pelaburan jadi penampan ketidaktentuan global.<span class="en">Strong labour market & diversified exports buffer global risk.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Daya tahan domestik. (−) Terdedah kepada tarif AS–China &amp; harga komoditi.<span class="en">Resilient at home, exposed to trade shocks.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Optimistik berhati-hati; perlu pelbagaikan eksport &amp; naik rantaian nilai.<span class="en">Cautiously optimistic — diversify & move up the value chain.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Inflasi dijangka rendah 1.5–2.3%</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 05 RON95 / BUDI95 -->
+<section class="slide" data-title="Subsidi RON95">
+  <p class="kicker">05 · Subsidi / Subsidy Reform</p>
+  <h2 class="h2">Subsidi Tersasar RON95 (BUDI95)</h2>
+  <div class="factbar"><span class="pill">Harga layak: <b>RM1.99/liter</b></span><span class="pill">Jimat: <b>RM2.5–4b/tahun</b></span><span class="pill">~84% rakyat layak</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>RON95 dikekalkan RM1.99/liter untuk yang layak; T20 &amp; bukan warganegara bayar harga pasaran.<span class="en">RM1.99/L for the eligible; T20/foreigners pay market price.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Kurangkan kebocoran subsidi; alih penjimatan ke kesihatan, pendidikan, bantuan sasar.<span class="en">Cut leakage; redirect savings to services.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Lebih adil &amp; jimat fiskal. (−) Kerumitan data kelayakan &amp; sensitiviti politik/kos hidup.<span class="en">Fairer & cheaper vs eligibility complexity & sensitivity.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Sokong berperingkat — sasaran tepat + komunikasi jelas + jaring keselamatan sosial.<span class="en">Support phased rollout with targeting, clarity & safety net.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Contoh "Issue Brief" lengkap untuk impromptu</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 06 SST & gaji minimum -->
+<section class="slide" data-title="SST & Gaji">
+  <p class="kicker">06 · Reformasi Fiskal &amp; Upah</p>
+  <h2 class="h2">SST, Reformasi Fiskal &amp; Gaji Minimum</h2>
+  <div class="factbar"><span class="pill">Gaji min: <b>RM1,700</b> (1 Ogos 2025)</span><span class="pill">SST diperluas</span><span class="pill">GLIC: gaji wajar RM3,100</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>SST diperluas untuk besarkan hasil; gaji minimum naik RM1,700; Progressive Wage Policy diperkenalkan.<span class="en">SST broadened; minimum wage RM1,700; Progressive Wage Policy.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Kukuhkan kedudukan fiskal &amp; naikkan pendapatan ("naik lantai") tanpa GST menyeluruh.<span class="en">Strengthen fiscus & lift incomes without broad GST.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Hasil &amp; upah lebih tinggi. (−) Tekanan kos perniagaan/PKS &amp; risiko alih ke harga.<span class="en">More revenue/wages vs business cost pressure.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Perlu, tapi berperingkat &amp; bersasar supaya PKS &amp; pengguna tidak terbeban.<span class="en">Necessary but phased so SMEs & consumers aren't squeezed.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Inflasi dijangka kekal rendah 1.5–2.3%</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 07 Kos sara hidup -->
+<section class="slide" data-title="Kos Sara Hidup">
+  <p class="kicker">07 · Sosial / Cost of Living</p>
+  <h2 class="h2">Kos Sara Hidup</h2>
+  <div class="factbar"><span class="pill">Inflasi: <b>1.5–2.3%</b></span><span class="pill">SARA / STR · Rahmah · BUDI95</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Tekanan harga makanan, sewa &amp; pengangkutan; kerajaan respons via bantuan tunai (SARA/STR), Menu Rahmah, subsidi sasar.<span class="en">Food/rent/transport pressure; cash aid, Rahmah, targeted subsidy.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Isu paling dekat dengan rakyat &amp; ukur sebenar kesejahteraan.<span class="en">The issue closest to people; a real well-being gauge.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Bantuan segera. (−) Punca struktur (gaji rendah, produktiviti, import) perlu ditangani.<span class="en">Quick relief vs structural roots (wages, productivity).</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Gabung bantuan jangka pendek + reformasi upah/produktiviti jangka panjang.<span class="en">Pair short-term aid with long-term wage/productivity reform.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Kaitkan dengan gaji minimum &amp; Progressive Wage</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 08 Semiconductor NSS -->
+<section class="slide" data-title="Semikonduktor / NSS">
+  <p class="kicker">08 · Industri / Investment</p>
+  <h2 class="h2">Semikonduktor &amp; FDI — Strategi Semikonduktor Negara (NSS)</h2>
+  <div class="factbar"><span class="pill">Pelaburan: <b>RM59.85b</b> (Jan'24–Sep'25)</span><span class="pill">Insentif: RM25b</span><span class="pill">E&amp;E ≈ 25% KDNK</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>NSS gerakkan Malaysia naik rantaian nilai — daripada pemasangan/uji (ATP) ke reka bentuk cip, pembungkusan termaju &amp; fabrikasi wafer.<span class="en">NSS moves Malaysia up the chain: from ATP to chip design & wafer fab.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>E&amp;E ialah tulang belakang eksport; pelaburan global mengalir (FDI RM56.8b).<span class="en">E&E is the export backbone; strong FDI inflow.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Pekerjaan bernilai tinggi. (−) Kekurangan bakat &amp; persaingan rantau (Vietnam, India).<span class="en">High-value jobs vs talent shortage & regional rivalry.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Peluang besar — utamakan latihan bakat tempatan (kait RMK-13 &amp; TVET).<span class="en">Big opportunity — prioritise local talent (link RMK-13 & TVET).</span></p></div>
+  </div>
+  <div class="deck-footer"><span>~RM2b diperuntukkan dalam Belanjawan 2026</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 09 Digital, AI & siber -->
+<section class="slide" data-title="Digital & Siber">
+  <p class="kicker">09 · Teknologi / Digital &amp; Cyber</p>
+  <h2 class="h2">Digital, AI &amp; Keselamatan Siber</h2>
+  <div class="factbar"><span class="pill">RUU Jenayah Siber (ganti Akta 1997)</span><span class="pill">CSCDC (2026)</span><span class="pill">NSRC anti-scam</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>RUU Jenayah Siber baharu tangani deepfake, kecurian identiti &amp; penipuan AI; selaras Konvensyen Budapest. Pusat CSCDC ditubuh.<span class="en">New Cybercrime Bill targets deepfakes/AI fraud; CSCDC established.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Penipuan dalam talian &amp; ancaman siber meningkat; kedaulatan digital negara dipertaruh.<span class="en">Rising scams & cyber threats; digital sovereignty at stake.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Perlindungan &amp; tata kelola AI. (−) Imbang dengan kebebasan bersuara &amp; privasi.<span class="en">Protection vs free-speech & privacy balance.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Sokong undang-undang moden + literasi digital rakyat + tadbir urus AI beretika.<span class="en">Support modern law + digital literacy + ethical AI governance.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Kait dengan AI dalam perkhidmatan awam (kecekapan)</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 10 Tenaga & iklim -->
+<section class="slide" data-title="Tenaga & Iklim">
+  <p class="kicker">10 · Alam Sekitar / Energy &amp; Climate</p>
+  <h2 class="h2">Peralihan Tenaga &amp; Iklim (NETR)</h2>
+  <div class="factbar"><span class="pill">Net zero <b>2050</b></span><span class="pill">NETR · tenaga boleh baharu</span><span class="pill">ASEAN Power Grid</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>NETR memacu tenaga boleh baharu (solar, hidro), kecekapan tenaga &amp; sasaran net zero 2050.<span class="en">NETR drives renewables, efficiency & net-zero 2050.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Keselamatan tenaga, daya saing ESG &amp; ketahanan iklim (banjir bermusim makin teruk).<span class="en">Energy security, ESG competitiveness, climate resilience.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Mampan &amp; pelaburan hijau. (−) Kos peralihan tinggi &amp; pergantungan fosil semasa.<span class="en">Sustainable green investment vs high transition cost.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Peralihan <i>adil</i> (just transition) — lindungi pengguna &amp; pekerja sektor lama.<span class="en">A just transition that protects consumers & workers.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Kait banjir → kesiapsiagaan bencana &amp; perancangan bandar</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 11 Pendidikan & TVET -->
+<section class="slide" data-title="Pendidikan & TVET">
+  <p class="kicker">11 · Pendidikan / Education</p>
+  <h2 class="h2">Pendidikan &amp; TVET</h2>
+  <div class="factbar"><span class="pill">Pendidikan: <b>RM67b</b></span><span class="pill">Pengajian tinggi: RM18.6b</span><span class="pill">TVET: <b>RM7.9b</b></span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Belanjawan 2026 perkukuh reformasi pendidikan (RMK-13) &amp; lonjak TVET (RM3b ke HRD Corp untuk sektor teknologi tinggi/digital/tenaga).<span class="en">Education reform + TVET boost for HGHV talent.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Bekalkan bakat untuk industri HGHV (semikonduktor, digital) &amp; rapatkan jurang kemahiran.<span class="en">Supply HGHV talent; close skills gaps.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Bajet besar &amp; fokus kemahiran. (−) Stigma TVET &amp; padanan kurikulum–industri.<span class="en">Big budget vs TVET stigma & curriculum–industry fit.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Angkat TVET setara akademik; eratkan kerjasama industri–institusi.<span class="en">Elevate TVET; deepen industry–institution ties.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Jambatan terus ke isu Semikonduktor &amp; bakat</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 12 Kesihatan -->
+<section class="slide" data-title="Kesihatan">
+  <p class="kicker">12 · Kesihatan / Health</p>
+  <h2 class="h2">Sistem Kesihatan</h2>
+  <div class="factbar"><span class="pill">KKM 2026: <b>RM46.52b</b> (+2.76%)</span><span class="pill">Kos kesihatan swasta</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Peruntukan kesihatan naik; Belanjawan 2026 tangani kos penjagaan kesihatan swasta (JMCPHC) &amp; perkukuh kesihatan awam.<span class="en">Higher health budget; tackles private-care cost inflation.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Penuaan penduduk, beban penyakit tidak berjangkit (NCD) &amp; kos perubatan meningkat.<span class="en">Ageing population, NCD burden, rising medical costs.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Pelaburan &amp; reformasi. (−) Beban kerja kakitangan, kekurangan doktor, "brain drain" perubatan.<span class="en">Investment vs staff burnout & medical brain drain.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Perkukuh kesihatan awam + pembiayaan kesihatan mampan + kekalkan bakat perubatan.<span class="en">Strengthen public health + sustainable financing + retain talent.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Kait dengan brain drain &amp; kos sara hidup</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 13 ASEAN -->
+<section class="slide" data-title="ASEAN">
+  <p class="kicker">13 · Dasar Luar / Foreign Policy</p>
+  <h2 class="h2">ASEAN &amp; Dasar Luar Malaysia</h2>
+  <div class="factbar"><span class="pill">Pengerusi 2025: <b>Malaysia</b></span><span class="pill">2026: Filipina</span><span class="pill">Kepusatan ASEAN</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Pengerusian Malaysia 2025 (tema <i>Inclusivity & Sustainability</i>) — Perjanjian Damai KL, kemasukan Timor-Leste, kemajuan DEFA. 2026 beralih ke Filipina.<span class="en">Malaysia's 2025 chair: KL Peace Accord, Timor-Leste, DEFA; PH chairs 2026.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Malaysia kekal neutral &amp; relevan dalam dunia berpecah; dagang serantau penting.<span class="en">Neutral, relevant middle power amid fragmentation.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Pengaruh diplomatik. (−) Laut China Selatan &amp; krisis Myanmar belum selesai.<span class="en">Diplomatic clout vs South China Sea & Myanmar deadlock.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Diplomasi berprinsip, neutral &amp; berpaksi kepusatan ASEAN — sesuai imej PTD.<span class="en">Principled, neutral, ASEAN-centred diplomacy — the PTD ideal.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Code of Conduct LCS disasar siap 2026</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 14 Geopolitik global -->
+<section class="slide" data-title="Geopolitik Global">
+  <p class="kicker">14 · Antarabangsa / Global</p>
+  <h2 class="h2">Geopolitik Global 2026</h2>
+  <div class="factbar"><span class="pill">Tarif AS–China</span><span class="pill">Gaza (gencatan Okt 2025)</span><span class="pill">Rusia–Ukraine</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Perang dagang &amp; tarif AS–China; gencatan senjata Gaza diuji; konflik Ukraine berterusan.<span class="en">US–China tariff war; fragile Gaza truce; ongoing Ukraine war.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Kesan ke Malaysia: rantaian bekalan, FDI, harga minyak/komoditi, ringgit, eksport E&amp;E.<span class="en">Hits Malaysia's supply chains, FDI, oil, ringgit, E&E exports.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Peluang pengalihan rantaian bekalan (+FDI). (−) Risiko kejutan harga &amp; ketidaktentuan.<span class="en">Supply-chain diversion gains vs price-shock risk.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Neutraliti aktif, pelbagaikan pasaran (RCEP/CPTPP), perkukuh ketahanan domestik.<span class="en">Active neutrality, diversify markets, build resilience.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Pendirian Malaysia: Palestin &amp; penyelesaian dua negara</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- 15 Tadbir urus & anti-rasuah -->
+<section class="slide" data-title="Tadbir Urus">
+  <p class="kicker">15 · Tata Kelola / Governance</p>
+  <h2 class="h2">Tadbir Urus &amp; Anti-Rasuah</h2>
+  <div class="factbar"><span class="pill">NACP / Pelan Anti-Rasuah</span><span class="pill">Reformasi institusi</span><span class="pill">Kerajaan digital</span></div>
+  <div class="brief">
+    <div class="qbox"><h4>Apa / What</h4><p>Agenda reformasi: anti-rasuah (NACP), ketelusan, pengasingan kuasa &amp; pendigitalan kerajaan.<span class="en">Reform agenda: anti-graft, transparency, digital govt.</span></p></div>
+    <div class="qbox"><h4>Kenapa / Why</h4><p>Tata kelola baik = tonggak ke-3 MADANI; tarik pelaburan &amp; kepercayaan rakyat.<span class="en">Good governance = MADANI's 3rd pillar; trust & investment.</span></p></div>
+    <div class="qbox"><h4>Dua Sisi / Both Sides</h4><p>(+) Komitmen reformasi. (−) Pelaksanaan &amp; kebebasan institusi perlu konsisten.<span class="en">Reform commitment vs consistent institutional independence.</span></p></div>
+    <div class="qbox stand"><h4>Pendirian / Stand</h4><p>Integriti &amp; akauntabiliti ialah asas — paling rapat dengan peranan &amp; nilai PTD.<span class="en">Integrity & accountability — core to the PTD's own role.</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Kait dengan etika penjawat awam: Aku Janji, Perintah Am</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- CLOSER -->
+<section class="slide center" data-title="Penutup">
+  <p class="kicker">Setiap hari sehingga 4 Julai</p>
+  <h1 class="h1">Baca. Sebut. <span class="gradient-text">Yakin.</span></h1>
+  <p class="lede">Kuasai struktur, bukan hafalan. Setiap isu = Apa · Kenapa · Dua sisi · Pendirian. Pendirian PTD sentiasa <b>matang, neutral &amp; berpaksi kepentingan rakyat</b>.<br><span class="en">Master the structure. Your stand is always mature, neutral, public-interest-first.</span></p>
+  <div class="factbar" style="margin-top:24px;justify-content:center">
+    <span class="pill">← → navigasi</span><span class="pill">F skrin penuh</span><span class="pill">O ringkasan</span>
+  </div>
+  <div class="deck-footer"><span>Sahkan angka terkini sebelum ujian · sumber rasmi</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+</div>
+
+<div class="hint">← → navigasi · F skrin penuh · O ringkasan</div>
+
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var i=0, total=slides.length;
+  function render(){
+    slides.forEach(function(s,n){s.classList.toggle('is-active',n===i);});
+    var s=slides[i];
+    s.querySelectorAll('.cur').forEach(function(e){e.textContent=i+1;});
+    s.querySelectorAll('.tot').forEach(function(e){e.textContent=total;});
+    var p=s.querySelector('.progress'); if(p)p.style.width=((i+1)/total*100)+'%';
+    if(location.hash!=='#'+(i+1))history.replaceState(null,'','#'+(i+1));
+  }
+  function go(n){i=Math.max(0,Math.min(total-1,n));render();}
+  document.addEventListener('keydown',function(e){
+    if(['ArrowRight',' ','PageDown'].indexOf(e.key)>-1){go(i+1);e.preventDefault();}
+    else if(['ArrowLeft','PageUp'].indexOf(e.key)>-1){go(i-1);e.preventDefault();}
+    else if(e.key==='Home'){go(0);}
+    else if(e.key==='End'){go(total-1);}
+    else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+    else if(e.key==='o'||e.key==='O'){document.body.classList.toggle('overview');}
+  });
+  // swipe (mobile)
+  var x0=null;
+  document.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});
+  document.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)go(dx<0?i+1:i-1);x0=null;},{passive:true});
+  // click right/left third
+  document.getElementById('deck').addEventListener('click',function(e){
+    var w=window.innerWidth;if(e.clientX>w*0.75)go(i+1);else if(e.clientX<w*0.25)go(i-1);
+  });
+  var h=parseInt((location.hash||'').replace('#',''),10);
+  if(h>=1&&h<=total)i=h-1;
+  render();
+})();
+</script>
+</body>
+</html>
