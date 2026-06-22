@@ -49,6 +49,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🖥️ **Bacaan harian isu semasa:** buka **[`01-pac/isu-semasa-deck.html`](01-pac/isu-semasa-deck.html)** dalam pelayar — **20 isu teras** (dwibahasa) dengan ayat padat + slaid sumber. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser; 20 bilingual issues with soundbites + a sources slide, to read daily.
 
+🖨️ **Ulang kaji luar talian (cetak/PDF):** buka **[`01-pac/isu-semasa-ringkasan.html`](01-pac/isu-semasa-ringkasan.html)** → tekan butang cetak → "Save as PDF". Semua 20 isu padat dalam beberapa muka A4. / Print/PDF revision sheet — all 20 issues on a few A4 pages.
+
 ---
 
 ## ✅ Tindakan Segera (mulai hari ini)

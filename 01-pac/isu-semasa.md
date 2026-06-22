@@ -10,6 +10,8 @@ Current affairs are the **raw material** for the essay, public speaking, impromp
 
 > 🖥️ **Bacaan harian / Daily reading:** buka **[`isu-semasa-deck.html`](isu-semasa-deck.html)** dalam pelayar (browser) — **20 isu teras** dwibahasa, setiap satu dengan "ayat padat" siap pakai + slaid sumber berpaut. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser — 20 bilingual issues, each with a ready soundbite + a linked sources slide.
 
+> 🖨️ **Ulang kaji luar talian / Offline revision:** buka **[`isu-semasa-ringkasan.html`](isu-semasa-ringkasan.html)** → cetak / "Save as PDF" (A4). Semua 20 isu (A·K·±·→ + ayat padat) dalam beberapa muka surat. / Print/PDF one-pager of all 20 briefs.
+
 ---
 
 ## 📊 Fakta Pantas 2026 / Quick Facts (hafal angka ini)
