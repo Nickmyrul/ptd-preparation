@@ -28,7 +28,8 @@ Topic given ~20 min ahead — use it to **outline, not memorise word-for-word**.
 > *"Terima kasih tuan/puan pengerusi. Hari ini saya akan menyentuh [tajuk] melalui tiga perkara: pertama…, kedua…, dan ketiga…."*
 > *"Thank you, chairperson. Today I will address [topic] through three points: first…, second…, and third…."*
 
-> 🖥️ **Deck pengucapan awam (gabungan):** buka **[`pengucapan-deck.html`](pengucapan-deck.html)** — **A) teknik penyampaian** (kaedah Joseph Tsar: penanda wacana, kata kerja hidup, aliran, tempo) + **B) 5 contoh ucapan** 5-minit penuh. Semua dwibahasa. / Combined: delivery craft (Tsar method) + 5 worked speeches, all bilingual.
+> 🖥️ **Deck pengucapan awam (gabungan):** buka **[`pengucapan-deck.html`](pengucapan-deck.html)** — **A) teknik penyampaian** (kaedah Joseph Tsar: penanda wacana, kata kerja hidup, aliran, tempo) + **B) 5 contoh ucapan** 4–5 minit penuh (BM & English). / Combined: delivery craft (Tsar method) + 5 worked speeches, bilingual.
+> 🧩 **Rangka ucapan universal (deck):** buka **[`rangka-ucapan.html`](rangka-ucapan.html)** — teknik + ayat siap pakai untuk setiap bahagian (Pembukaan · Masalah · Penyelesaian · Cabaran · Penutup) + templat isi-tempat-kosong untuk mana-mana tajuk. / Universal framework with plug-and-play lines for any topic.
 
 ---
 
