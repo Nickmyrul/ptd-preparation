@@ -2,6 +2,8 @@
 
 PAC ialah kaedah pentaksiran berpusat yang menilai **kompetensi** calon melalui beberapa aktiviti/simulasi, bukan sekadar pengetahuan. Penilai memerhati tingkah laku anda secara langsung.
 
+> 📌 **Format terkini & masa setiap komponen → [`format-terkini.md`](format-terkini.md)** (esei 45 min · pengucapan awam · impromptu · perbincangan kumpulan 8–10 orang). Baca ini dahulu.
+
 ## Kompetensi yang Lazim Dinilai (PTD)
 - **Kepimpinan & kerja berpasukan** (leadership, teamwork)
 - **Pemikiran analitik & penyelesaian masalah** (analytical thinking, problem solving)
@@ -14,12 +16,13 @@ PAC ialah kaedah pentaksiran berpusat yang menilai **kompetensi** calon melalui 
 ## Aktiviti Lazim dalam PAC (semak jadual sebenar Lampiran A)
 | Aktiviti | Fail panduan |
 |---|---|
-| Perbincangan kumpulan (LGD / group discussion) | [perbincangan-kumpulan.md](perbincangan-kumpulan.md) |
-| Kajian kes / in-tray exercise | [kajian-kes.md](kajian-kes.md) |
-| Pembentangan individu | [pembentangan.md](pembentangan.md) |
-| Penulisan esei (BM & Inggeris) | [esei.md](esei.md) |
-| Ujian psikometrik / personaliti | [psikometrik.md](psikometrik.md) |
+| **Format terkini (4 komponen + masa)** | [format-terkini.md](format-terkini.md) |
+| Esei isu semasa (45 min, 1 bahasa) | [esei.md](esei.md) |
+| Pengucapan awam + impromptu | [pembentangan.md](pembentangan.md) |
+| Perbincangan kumpulan (8–10, kerajaan/pembangkang) | [perbincangan-kumpulan.md](perbincangan-kumpulan.md) |
 | Pengetahuan isu semasa | [isu-semasa.md](isu-semasa.md) |
+| Kajian kes / in-tray (jika ada) | [kajian-kes.md](kajian-kes.md) |
+| Ujian psikometrik / personaliti (jika ada) | [psikometrik.md](psikometrik.md) |
 
 > Susunan & jenis sebenar aktiviti bergantung pada **LAMPIRAN A** dalam e-mel SPA. Gunakan senarai ini sebagai persediaan menyeluruh.
 

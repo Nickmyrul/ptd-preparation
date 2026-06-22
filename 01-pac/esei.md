@@ -1,6 +1,12 @@
-# Penulisan Esei (BM & Inggeris)
+# Penulisan Esei Isu Semasa / Current-Issue Essay
 
-PTD menuntut penulisan yang **matang, berstruktur, dan padat fakta** dalam kedua-dua bahasa.
+**Format terkini:** ± **45 minit**, tajuk **isu semasa**, tulis dalam **satu bahasa** (BM **atau** English) ikut kekuatan anda. (Sesi lama: 1 jam / dua bahasa — sahkan Lampiran A.)
+**Latest format:** ~**45 min**, a **current-issue** topic, written in **one language** (Malay **or** English) of your choice. (Older sessions: 1 hour / both languages — verify Lampiran A.)
+
+> Tip utama: **baca isu semasa dalam & luar negara** setiap hari — itu sumber contoh & angka anda. Lihat [`isu-semasa.md`](isu-semasa.md).
+> Key tip: read **domestic and international** current issues daily — that's your supply of examples and figures.
+
+PTD menuntut penulisan yang **matang, berstruktur, dan padat fakta**. / PTD essays must be **mature, structured, fact-rich**.
 
 ## Struktur Esei Standard
 1. **Pengenalan** — definisi/konteks + pernyataan tesis (pendirian anda)
@@ -25,13 +31,17 @@ PTD menuntut penulisan yang **matang, berstruktur, dan padat fakta** dalam kedua
 - Antarabangsa: ASEAN, geopolitik, rantaian bekalan, keselamatan serantau
 - Teknologi: AI dalam sektor awam, keselamatan siber, jurang digital
 
-## Rutin Latihan
-- Tulis **1 esei BM + 1 esei Inggeris** setiap 2 hari (had masa cth. 40 minit).
-- Simpan **bank petikan/data** ringkas untuk dikutip semasa ujian.
-- Semak: adakah setiap perenggan ada fakta + kaitan + ayat topik jelas?
+## Rutin Latihan / Practice routine
+- Tulis **1 esei dalam masa 45 minit** setiap hari, **silih BM ↔ English**. / one timed 45-min essay daily, alternating languages.
+- Simpan **bank petikan/data** ringkas (lihat [`isu-semasa.md`](isu-semasa.md)) untuk dikutip semasa ujian.
+- Semak: adakah setiap perenggan ada **fakta + kaitan + ayat topik jelas**?
+- Urus masa: ~5 min rangka · ~33 min tulis · ~7 min semak. / outline · write · proofread.
 
-## Contoh Soalan
-- "Subsidi tersasar: keadilan sosial atau beban pentadbiran?" Bincangkan.
+## Contoh Soalan / Sample prompts (dwibahasa)
+- "Subsidi tersasar RON95 (BUDI95): keadilan sosial atau beban pentadbiran?" / "Targeted RON95 subsidy: social justice or administrative burden?"
 - "Artificial intelligence will reshape Malaysia's public service. Discuss."
-- "Sejauh manakah belia mampu memacu transformasi negara?"
+- "Bagaimana RMK-13 boleh merapatkan jurang pembangunan wilayah?" / "How can the 13th Malaysia Plan close regional development gaps?"
+- "Malaysia's ASEAN leadership in a fractured world. Discuss."
+- "Sejauh manakah belia mampu memacu transformasi negara?" / "Can youth drive national transformation?"
 - "Good governance is the foundation of national progress. Discuss."
+- "Kos sara hidup & gaji minimum RM1,700: mampukah ia memulihkan kuasa beli rakyat?" / "Cost of living & the RM1,700 minimum wage."

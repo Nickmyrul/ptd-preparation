@@ -35,6 +35,19 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 ---
 
+## 🧩 Format PAC Terkini (4 komponen — sahkan Lampiran A)
+
+| # | Komponen | Bahasa | Masa |
+|---|---|---|---|
+| 1 | Esei isu semasa | BM **atau** English | ± 45 min |
+| 2 | Pengucapan awam (bersedia) | BM | 5 min (tajuk ± 20 min awal) |
+| 3 | Pengucapan spontan (impromptu) | BM/English | 1 min fikir + 4 min cakap |
+| 4 | Perbincangan kumpulan (8–10 org, kerajaan/pembangkang/moderator) | BM/English | ± 20–30 min |
+
+➡️ Butiran penuh + rangka latihan (dwibahasa): [`01-pac/format-terkini.md`](01-pac/format-terkini.md)
+
+---
+
 ## ✅ Tindakan Segera (mulai hari ini)
 
 1. **Lengkapkan MyResume sebelum 28 Jun** — muat naik semua dokumen (lihat [`00-logistik/myresume-checklist.md`](00-logistik/myresume-checklist.md)). Gagal = boleh jejaskan pertimbangan ke temu duga.

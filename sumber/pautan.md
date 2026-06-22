@@ -14,11 +14,20 @@
 - DOSM (statistik): https://www.dosm.gov.my
 
 ## Dasar & Dokumen Negara (cari versi terkini)
-- Belanjawan Malaysia (Kementerian Kewangan): https://www.mof.gov.my
-- Rancangan Malaysia Ke-13 (RMK-13)
-- Malaysia MADANI — kerangka & nilai
+- Belanjawan Malaysia (Kementerian Kewangan): https://www.mof.gov.my · https://belanjawan.mof.gov.my
+- **RMK-13 (2026–2030)** — portal rasmi: https://rmk13.ekonomi.gov.my · Kementerian Ekonomi: https://ekonomi.gov.my
+- Teks ucapan PM (RMK13 / belanjawan): https://www.pmo.gov.my
+- Malaysia MADANI — kerangka & 6 nilai
 - National Energy Transition Roadmap (NETR)
 - Perlembagaan Persekutuan (rujuk teks rasmi)
+- Subsidi RON95 / BUDI MADANI (semakan kelayakan): https://budimadani.gov.my
+
+## Rujukan Format PAC (komuniti — sahkan dengan Lampiran A)
+- SPA — PAC/Ujian Bakat: https://www.spa.gov.my/perkhidmatan/urusan-penilaian-kompetensi/profession-assessment-centre-pac-ujian-bakat-ujian-kompetensi-pemanduan-ukp-penilaian-kompetensi-pengendalian-bot
+- Tips PAC (Muhadis Rahman): https://muhadisrahman.com/tips-persediaan-ptd-pac/
+- 7 Tips PAC (ebookkerjaya): https://www.ebookkerjaya.com/tips-ptd-assessment-centre-pac/
+- ExamPTD — PAC: https://www.examptd.info/ptd-assessment-centre-pac/
+- Pengalaman interview PTD M41 (nadz.my): https://nadz.my/interview-ptd/
 
 ## Bahan Persediaan PTD (komuniti)
 - Cari kumpulan/komuniti calon PTD (Telegram/Facebook) untuk kongsi pengalaman PAC terkini.

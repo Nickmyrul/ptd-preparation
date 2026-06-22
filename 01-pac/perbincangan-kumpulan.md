@@ -1,36 +1,78 @@
-# Perbincangan Kumpulan (Leaderless Group Discussion / LGD)
+# Perbincangan Kumpulan / Group Discussion
 
-Sekumpulan calon (biasanya 6–10) diberi isu untuk dibincang & mencapai kesimpulan dalam masa terhad. **Tiada ketua dilantik** — penilai menilai bagaimana anda menyumbang.
+Format terkini: **8–10 calon** dalam satu kumpulan, gaya **parlimen** — biasanya ada pihak **Kerajaan**, **Pembangkang**, dan kadang **Moderator/Pengerusi**. Matlamat: bincang isu & capai **keputusan akhir** secara kolektif dalam masa terhad.
 
-## Apa yang Penilai Cari
-- Kualiti & relevansi idea (bukan kuantiti bercakap)
-- Kemahiran mendengar & membina atas idea orang lain
-- Kepimpinan semula jadi (mengajak yang senyap, merumus, menjaga masa)
-- Hormat, sopan, tidak memotong cakap secara kasar
-- Keupayaan menyatukan pandangan ke arah kesimpulan
+Latest format: **8–10 candidates**, **parliamentary style** — usually a **Government** side, an **Opposition** side, and sometimes a **Moderator/Chair**. Goal: discuss the issue and reach a **collective final decision** within a time limit.
 
-## Strategi Praktikal
-1. **Bercakap awal** (dalam 1–2 minit pertama) — tetapkan kehadiran, tapi dengan idea bernilai.
-2. **Beri struktur**: cadangkan kumpulan pecahkan isu kepada bahagian, atau timbang pro/kontra.
-3. **Rujuk ahli lain dengan nama**: "Setuju dengan poin Aiman tadi, dan saya tambah…"
-4. **Tarik yang senyap**: "Ada pandangan lain daripada rakan di sebelah?" — tunjuk kepimpinan inklusif.
-5. **Pantau masa**: "Kita ada 5 minit lagi, mungkin boleh mula rumus?"
-6. **Rumus di akhir** — sesiapa yang merumus dengan kemas sering menonjol.
+Bahasa: **BM atau English** (ikut arahan/sesi). / Language: Malay or English as instructed.
 
-## Elak
-- ❌ Mendominasi / memotong cakap
-- ❌ Senyap sepanjang sesi
-- ❌ Bertengkar secara agresif / serang peribadi
-- ❌ Idea kosong tanpa fakta/relevansi
-- ❌ Bercakap hanya untuk dilihat (penilai nampak)
+---
 
-## Rangka Jawapan (boleh hafal)
-> "Isu ini boleh dilihat dari tiga sudut — ekonomi, sosial, dan pentadbiran. Dari sudut ekonomi… Justeru, cadangan saya ialah…"
+## 🎯 Apa Penilai Cari / What Assessors Look For
+- **Diplomasi & kematangan** — neutral, hormat, tidak emosi/agresif. / diplomacy & maturity.
+- **Kualiti idea** (bukan kuantiti bercakap) — fakta isu semasa + hujah berstruktur.
+- **Mendengar & membina** atas idea orang lain. / active listening, building on others.
+- **Kepimpinan inklusif** — ajak yang senyap, jaga masa, rumus — **tanpa mendominasi**.
+- **Menyumbang ke arah keputusan** — bantu kumpulan capai kesimpulan. / steer toward a decision.
 
-## Topik Latihan (latih dengan rakan/keluarga)
-- Patutkah subsidi petrol disasarkan sepenuhnya (RON95 targeted)?
-- Cabaran AI terhadap pekerjaan dalam perkhidmatan awam.
-- Bagaimana menangani brain drain di Malaysia?
-- Keseimbangan pembangunan ekonomi vs alam sekitar (cth. tenaga boleh baharu).
-- Peranan belia dalam pembangunan negara.
-- Isu kos sara hidup & cara kerajaan boleh bantu.
+> **Prinsip emas anda (per arahan anda):** *be diplomatic, be moderate, help others to speak, don't overshadow, secure a final decision at the end.*
+
+---
+
+## 🧭 Strategi Mengikut Peranan / Strategy by Role
+
+### Jika Kerajaan / If Government
+- Pertahankan/cadangkan dasar dengan **fakta + manfaat kepada rakyat**.
+- Akui kelemahan & tawarkan **penambahbaikan** (tunjuk matang, bukan defensif).
+
+### Jika Pembangkang / If Opposition
+- Kritik **isu, bukan orang.** Bawa data & cadangan alternatif yang **membina**.
+- Elak menentang semata-mata; tunjuk anda mahu **penyelesaian terbaik**, bukan menang.
+
+### Jika Moderator/Pengerusi / If Moderator
+- Tetapkan **struktur & masa**; pastikan **semua dapat bersuara**.
+- Rumus pandangan secara adil; pandu kumpulan ke **keputusan akhir** tanpa berat sebelah.
+- Risiko: jangan jadi pasif/"hilang suara sendiri" — tetap sumbang idea ringkas.
+
+---
+
+## 🗣️ Frasa Diplomatik Siap Pakai / Ready Diplomatic Phrases
+
+| Tujuan / Purpose | BM | English |
+|---|---|---|
+| Buka / open | "Mungkin kita boleh mulakan dengan mengenal pasti isu teras…" | "Perhaps we can start by identifying the core issue…" |
+| Setuju + tambah | "Saya bersetuju dengan [nama], dan ingin menambah…" | "I agree with [name], and would add…" |
+| Tak setuju sopan | "Saya hormati pandangan itu, namun dari sudut lain…" | "I respect that view; from another angle, however…" |
+| Tarik yang senyap | "Saya ingin dengar pandangan rakan kita di sebelah." | "I'd love to hear our colleague's view here." |
+| Jaga masa | "Kita ada ~5 minit lagi — eloknya kita mula merumus." | "We have ~5 minutes left — shall we start summarising?" |
+| Rumus & putuskan | "Kesimpulannya, majoriti cenderung kepada… Setuju?" | "In summary, most of us lean toward… Agreed?" |
+
+---
+
+## ✅ Buat / Do
+- **Bercakap awal** (dalam 1–2 min pertama) dengan **idea bernilai**, bukan sekadar hadir.
+- **Rujuk ahli dengan nama** — bina jambatan, bukan tembok.
+- Bawa **fakta isu semasa** (lihat [`isu-semasa.md`](isu-semasa.md)) untuk kredibiliti.
+- **Pandu ke keputusan** di hujung — sukarela merumus = menonjol positif.
+
+## ❌ Elak / Avoid
+- ❌ Mendominasi / memotong cakap secara kasar.
+- ❌ Senyap sepanjang sesi (penilai tiada bukti untuk menilai anda).
+- ❌ Bertengkar agresif / serang peribadi / emosi.
+- ❌ Idea kosong tanpa fakta; bercakap hanya "untuk dilihat".
+- ❌ Lupa matlamat — **mesti ada keputusan akhir kumpulan**.
+
+---
+
+## 🧱 Rangka Sumbangan (boleh hafal) / Contribution frame
+> "Isu ini boleh dilihat dari tiga sudut — **ekonomi, sosial, pentadbiran.** Dari sudut ekonomi…; dari sudut sosial…; justeru cadangan saya ialah…"
+> "This issue has three angles — **economic, social, governance.** Economically…; socially…; therefore I propose…"
+
+## 📋 Topik Latihan / Practice topics (latih dengan 3–4 rakan)
+- Patutkah subsidi RON95 disasarkan sepenuhnya (BUDI95)? / fully targeted fuel subsidy?
+- Cara terbaik tangani kos sara hidup. / best way to tackle cost of living.
+- AI & masa depan pekerjaan dalam sektor awam. / AI & future of public-sector jobs.
+- Brain drain: bagaimana kekalkan bakat tempatan? / retaining talent.
+- Pembangunan ekonomi vs perlindungan alam sekitar (NETR/net zero). / growth vs environment.
+- Peranan Malaysia dalam ASEAN & isu serantau. / Malaysia's ASEAN role.
+- Reformasi pendidikan / TVET untuk pasaran kerja masa depan. / education & TVET reform.
