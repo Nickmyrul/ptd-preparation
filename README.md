@@ -53,6 +53,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🎤 **Contoh pengucapan awam:** buka **[`01-pac/pengucapan-awam-contoh.html`](01-pac/pengucapan-awam-contoh.html)** — **5 ucapan 5-minit** dirangka penuh (Pembukaan → 3 Isi PEEL → Penutup). / 5 fully-worked example speeches.
 
+🗣️ **Teknik penyampaian (aliran):** buka **[`01-pac/teknik-pengucapan.html`](01-pac/teknik-pengucapan.html)** — bank penanda wacana, kata kerja hidup, teknik aliran &amp; tempo (bukan isu — cara). / Delivery craft: connectors, strong verbs, flow & pace.
+
 ---
 
 ## ✅ Tindakan Segera (mulai hari ini)

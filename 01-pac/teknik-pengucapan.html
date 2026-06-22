@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teknik Pengucapan PTD 2026 — Aliran, Penyambung &amp; Kata Kerja Hidup</title>
+<style>
+:root{
+  --bg:#0f1822; --bg-soft:#13202c; --surface:#182838; --surface-2:#1f3346;
+  --border:#2a4156; --text-1:#eef5fb; --text-2:#b8cad9; --text-3:#7d93a6;
+  --accent:#4cc9f0; --accent-2:#56e39f; --accent-3:#ffd166; --bad:#ff7a7a;
+  --radius:16px; --radius-s:10px; --font-sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text-1);overflow:hidden;-webkit-font-smoothing:antialiased}
+.deck{height:100vh;width:100vw;position:relative}
+.slide{position:absolute;inset:0;display:none;flex-direction:column;padding:34px 54px 50px;opacity:0;transition:opacity .35s ease;background:radial-gradient(1200px 600px at 80% -10%,rgba(76,201,240,.08),transparent 60%)}
+.slide.is-active{display:flex;opacity:1}
+.slide.center{justify-content:center;align-items:center;text-align:center}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.h1{font-size:52px;line-height:1.05;font-weight:900;letter-spacing:-.02em;margin:14px 0}
+.h2{font-size:30px;line-height:1.12;font-weight:800;letter-spacing:-.01em;margin:2px 0}
+.lede{font-size:18px;color:var(--text-2);max-width:64ch;line-height:1.5}
+.gradient-text{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.en{color:var(--text-3);font-style:italic}
+.sub{font-size:14px;color:var(--text-2);margin-top:4px}
+.grid{display:grid;gap:10px;margin-top:14px}
+.g4{grid-template-columns:repeat(4,1fr)} .g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+.cbox{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:10px 13px}
+.cbox h4{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--accent-2);margin-bottom:5px}
+.cbox p{font-size:13px;line-height:1.45;color:var(--text-1)}
+.cbox p .en{display:block;font-size:11.5px;margin-top:3px}
+.swap{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}
+.swap th{text-align:left;color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding:6px 10px;border-bottom:1px solid var(--border)}
+.swap td{padding:7px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+.swap .dead{color:var(--bad);text-decoration:line-through;text-decoration-color:rgba(255,122,122,.5)}
+.swap .live{color:var(--accent-2);font-weight:600}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.ba .col{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:14px 16px}
+.ba .col.dead{border-color:rgba(255,122,122,.35)}
+.ba .col.live{border-color:rgba(86,227,159,.4)}
+.ba h4{font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+.ba .dead h4{color:var(--bad)} .ba .live h4{color:var(--accent-2)}
+.ba p{font-size:15px;line-height:1.45;margin:7px 0}
+.ba .hl{color:var(--accent-3);font-weight:600}
+.steps{display:flex;flex-direction:column;gap:9px;margin-top:12px}
+.step{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:10px 15px;display:grid;grid-template-columns:128px 1fr;gap:14px;align-items:start}
+.step .lab{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);padding-top:2px}
+.step p{font-size:14px;line-height:1.4}
+.step .ex{color:var(--text-3);font-style:italic}
+.pill{display:inline-block;background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:600;margin:3px 5px 0 0}
+.pill b{color:var(--accent)}
+.note{margin-top:12px;background:linear-gradient(90deg,rgba(76,201,240,.10),rgba(86,227,159,.05));border-left:4px solid var(--accent);border-radius:8px;padding:10px 15px;font-size:14px;line-height:1.45}
+.note b{color:var(--accent-3)}
+.deck-footer{position:absolute;left:54px;right:54px;bottom:18px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--text-3)}
+.progress{position:absolute;left:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--accent),var(--accent-2));transition:width .35s ease;width:0}
+.hint{position:absolute;top:14px;right:20px;font-size:11px;color:var(--text-3)}
+.num{font-size:12px;color:var(--text-3);font-weight:700}
+@media (max-width:820px){.slide{padding:22px 16px 44px}.h1{font-size:32px}.h2{font-size:22px}.g4,.g3{grid-template-columns:1fr 1fr}.ba,.g2{grid-template-columns:1fr}.step{grid-template-columns:1fr;gap:3px}.deck-footer{left:16px;right:16px}}
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+<!-- COVER -->
+<section class="slide center" data-title="Cover">
+  <p class="kicker">PTD · PAC · Teknik Pengucapan</p>
+  <h1 class="h1">Aliran, Penyambung &amp; <span class="gradient-text">Kata Kerja Hidup</span></h1>
+  <p class="lede">Bukan tentang isu — tentang <b>cara</b>. Perkataan yang menyambung idea, kata kerja yang hidup, dan ayat yang mengalir tanpa putus.<br><span class="en">Not about the topic — about delivery: words that connect, verbs that live, sentences that flow.</span></p>
+  <div style="margin-top:20px"><span class="pill">Penanda wacana</span><span class="pill">Kata kerja kuat</span><span class="pill">Aliran &amp; tempo</span></div>
+  <div class="deck-footer"><span>Inspirasi: pendekatan articulacy Joseph Tsar (BetterSpeak)</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- PRINCIPLE -->
+<section class="slide center" data-title="Prinsip">
+  <p class="kicker">Prinsip Teras / Core Principle</p>
+  <h2 class="h2">Aliran mengatasi isi</h2>
+  <p class="lede">Penilai ingat <b>perasaan</b> ucapan anda, bukan setiap fakta. Ucapan yang <i>mengalir</i> kedengaran yakin walau idea ringkas; ucapan tersekat kedengaran lemah walau fakta hebat.<br><span class="en">Assessors remember how it flowed, not every fact. Flow signals confidence.</span></p>
+  <div class="grid g3" style="max-width:920px">
+    <div class="cbox"><h4>1 · Sambung</h4><p>Setiap ayat <b>dipaut</b> kepada ayat sebelumnya dengan penanda wacana. / Link every sentence.</p></div>
+    <div class="cbox"><h4>2 · Hidupkan</h4><p>Pilih <b>kata kerja kuat</b> — buang "ada/buat/sangat". / Choose strong verbs.</p></div>
+    <div class="cbox"><h4>3 · Bernafas</h4><p>Ganti "ee/aa" dengan <b>jeda</b>; biar perkataan kunci mendarat. / Replace fillers with pauses.</p></div>
+  </div>
+  <div class="deck-footer"><span>3 tabiat: Sambung · Hidupkan · Bernafas</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- CONNECTOR BANK -->
+<section class="slide" data-title="Bank Penyambung">
+  <p class="kicker">Senjata 1 / Toolkit 1</p>
+  <h2 class="h2">Bank Penanda Wacana (perkataan penyambung)</h2>
+  <div class="sub">Hafal 2–3 setiap fungsi. Inilah "gam" yang merapatkan idea. / Memorise 2–3 per function — the glue between ideas.</div>
+  <div class="grid g4">
+    <div class="cbox"><h4>➕ Menambah / Add</h4><p>tambahan pula · selain itu · malah · bukan itu sahaja<span class="en">furthermore · moreover · what's more · not only that</span></p></div>
+    <div class="cbox"><h4>⚖️ Berlawanan / Contrast</h4><p>namun · sebaliknya · walau bagaimanapun · di sebalik itu<span class="en">however · yet · on the contrary · even so</span></p></div>
+    <div class="cbox"><h4>➡️ Sebab–Akibat / Cause</h4><p>justeru · oleh itu · akibatnya · ekoran itu<span class="en">therefore · as a result · consequently · hence</span></p></div>
+    <div class="cbox"><h4>🔍 Contoh / Example</h4><p>contohnya · sebagai bukti · ambil sahaja · lihat sahaja<span class="en">for instance · take ___ · consider · look at</span></p></div>
+    <div class="cbox"><h4>🔢 Urutan / Sequence</h4><p>pertama · seterusnya · sebelum itu · akhir sekali<span class="en">first · next · before that · finally</span></p></div>
+    <div class="cbox"><h4>❗ Penekanan / Emphasis</h4><p>hakikatnya · sejujurnya · yang penting · perlu ditegaskan<span class="en">in fact · the truth is · crucially · make no mistake</span></p></div>
+    <div class="cbox"><h4>🌉 Jambatan "so what"</h4><p>persoalannya · apa maknanya · inilah sebabnya<span class="en">which begs the question · what this means · here's why</span></p></div>
+    <div class="cbox"><h4>🎯 Rumusan / Conclude</h4><p>kesimpulannya · secara ringkas · intinya · pada akhirnya<span class="en">in short · to sum up · the bottom line · ultimately</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Tip: tukar penyambung setiap ayat — jangan ulang "dan… dan… dan"</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- STRONG VERBS -->
+<section class="slide" data-title="Kata Kerja Hidup">
+  <p class="kicker">Senjata 2 / Toolkit 2</p>
+  <h2 class="h2">Kata Kerja Mati → Kata Kerja Hidup</h2>
+  <div class="sub">Kata kerja lemah membunuh ayat. Tukar kepada kata kerja tepat &amp; bertenaga. / Weak verbs kill a sentence — swap for precise, energetic ones.</div>
+  <table class="swap">
+    <tr><th>Mati / Dead</th><th>Hidup / Live (BM)</th><th>Live (English)</th></tr>
+    <tr><td class="dead">ada</td><td class="live">wujud · lahir · terbentuk</td><td class="live">emerges · exists · takes shape</td></tr>
+    <tr><td class="dead">buat / bikin</td><td class="live">laksana · bina · cipta · gerakkan</td><td class="live">drive · build · forge · spark</td></tr>
+    <tr><td class="dead">beri</td><td class="live">tawarkan · salurkan · kurniakan</td><td class="live">deliver · channel · grant</td></tr>
+    <tr><td class="dead">kata</td><td class="live">tegaskan · suarakan · lontarkan</td><td class="live">argue · assert · voice</td></tr>
+    <tr><td class="dead">naik / turun</td><td class="live">melonjak · merudum · susut</td><td class="live">surge · plunge · shrink</td></tr>
+    <tr><td class="dead">guna</td><td class="live">manfaat · gembleng · kerah</td><td class="live">harness · mobilise · leverage</td></tr>
+    <tr><td class="dead">tunjuk</td><td class="live">serlah · buktikan · papar</td><td class="live">reveal · prove · demonstrate</td></tr>
+    <tr><td class="dead">"sangat penting"</td><td class="live">kritikal · genting · teras</td><td class="live">critical · vital · pivotal</td></tr>
+  </table>
+  <div class="note">⚙️ <b>Ujian pantas:</b> jika ayat guna "ialah / adalah / ada / buat" — cari kata kerja yang lebih tepat. / If a sentence leans on "is/are/there is/do", hunt a sharper verb.</div>
+  <div class="deck-footer"><span>Satu kata kerja kuat &gt; tiga kata sifat lemah</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- DEAD vs ALIVE SENTENCE -->
+<section class="slide" data-title="Ayat Hidup">
+  <p class="kicker">Senjata 3 / Toolkit 3</p>
+  <h2 class="h2">Ayat Mati → Ayat Hidup</h2>
+  <div class="ba">
+    <div class="col dead"><h4>✗ Mati / Dead</h4>
+      <p>"Isu ini adalah penting dan kerajaan ada buat banyak benda untuk rakyat."</p>
+      <p>"Belia ada peranan dalam ekonomi negara."</p>
+      <p class="en">"There are many problems and the government is doing things."</p>
+    </div>
+    <div class="col live"><h4>✓ Hidup / Live</h4>
+      <p>"Isu ini <span class="hl">genting</span> — dan kerajaan telah <span class="hl">menggerakkan</span> langkah berani untuk rakyat."</p>
+      <p>"Belia <span class="hl">menggerakkan</span> ekonomi: mereka <span class="hl">mencipta, membina, dan melonjakkan</span> negara."</p>
+      <p class="en">"Problems are <span class="hl">mounting</span> — and the government has <span class="hl">moved decisively</span> to confront them."</p>
+    </div>
+  </div>
+  <div class="note">🔑 Resipi: <b>kata kerja kuat</b> + <b>rangkap tiga</b> (rule of three) + <b>jeda</b> selepas perkataan kunci. / Strong verb + a triad + a pause after the key word.</div>
+  <div class="deck-footer"><span>Buang "adalah/ialah/ada/buat" → ayat segera hidup</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- FLOW TECHNIQUES -->
+<section class="slide" data-title="Teknik Aliran">
+  <p class="kicker">Senjata 4 / Toolkit 4</p>
+  <h2 class="h2">Teknik Aliran — pautkan idea</h2>
+  <div class="steps">
+    <div class="step"><span class="lab">Kata Gema</span><p>Tamatkan ayat dengan satu perkataan; mulakan ayat seterusnya dengan perkataan sama. <span class="ex">"…demi keadilan. Dan keadilan bermula dengan…"</span></p></div>
+    <div class="step"><span class="lab">Papan Tanda</span><p>Beri nombor di awal: "tiga perkara — pertama…, kedua…, ketiga…". Pendengar tahu arah. <span class="ex">Signpost so the listener never gets lost.</span></p></div>
+    <div class="step"><span class="lab">Jambatan "So What"</span><p>Selepas fakta, paut maknanya: "…RM470 bilion. <b>Apa maknanya kepada rakyat?</b>…" <span class="ex">Turn a fact into meaning.</span></p></div>
+    <div class="step"><span class="lab">Rangkap Tiga</span><p>Idea dalam kumpulan tiga — berirama &amp; mudah diingat. <span class="ex">"mencipta, membina, melonjak" · "rakyat, negara, masa depan"</span></p></div>
+    <div class="step"><span class="lab">Soalan Retorik</span><p>Tanya, kemudian jawab — tarik perhatian semula. <span class="ex">"Mampukah kita berdiam? Tidak."</span></p></div>
+  </div>
+  <div class="deck-footer"><span>Aliran = paut setiap ayat ke ayat berikut</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- FILLERS & PACE -->
+<section class="slide" data-title="Filler & Tempo">
+  <p class="kicker">Senjata 5 / Toolkit 5</p>
+  <h2 class="h2">Buang Filler, Kawal Tempo</h2>
+  <div class="grid g2">
+    <div class="cbox"><h4>Bunuh pengisi / Kill fillers</h4><p>Buang "ee… aa… macam… basically… you know". Penggantinya bukan perkataan — tetapi <b>senyap</b>.<span class="en">Replace fillers with silence, not another word.</span></p></div>
+    <div class="cbox"><h4>Jeda berkuasa / The power pause</h4><p>Berhenti 1 saat selepas perkataan kunci. Jeda = keyakinan; laju = gugup.<span class="en">A 1-second pause reads as control.</span></p></div>
+    <div class="cbox"><h4>Perlahankan / Slow down</h4><p>Berhenti di koma, bernafas di noktah. Biar idea mendarat.<span class="en">Pause at commas, breathe at full stops.</span></p></div>
+    <div class="cbox"><h4>Tekankan kata kerja / Hit the verb</h4><p>Beri penekanan suara pada kata kerja kuat — itu nadi ayat.<span class="en">Stress the strong verb — it's the pulse of the line.</span></p></div>
+  </div>
+  <div class="note">🎙️ Daripada "Jadi… ee… isu ini macam penting…" → <b>"Isu ini genting."</b> [jeda] Pendek, hidup, yakin.</div>
+  <div class="deck-footer"><span>Senyap lebih berkuasa daripada "ee…"</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- PUT IT TOGETHER -->
+<section class="slide" data-title="Gabungan">
+  <p class="kicker">Gabungan / Putting it together</p>
+  <h2 class="h2">Satu perenggan — semua teknik</h2>
+  <div class="ba">
+    <div class="col dead"><h4>✗ Versi mati</h4>
+      <p>"Subsidi adalah satu isu yang penting. Kerajaan ada buat BUDI95. Ia bagi RON95 RM1.99. Ini bagus untuk rakyat dan boleh jimat duit."</p>
+    </div>
+    <div class="col live"><h4>✓ Versi hidup (mengalir)</h4>
+      <p>"Subsidi <span class="hl">menyentuh</span> setiap rakyat. <span class="hl">Justeru</span>, kerajaan <span class="hl">memperkenalkan</span> BUDI95 — mengekalkan RON95 pada RM1.99. <span class="hl">Apa maknanya?</span> Penjimatan disalurkan semula kepada kesihatan, pendidikan, dan masa depan. <span class="hl">Inilah</span> keadilan dalam tindakan."</p>
+    </div>
+  </div>
+  <div style="margin-top:10px">
+    <span class="pill">Penyambung: <b>justeru · apa maknanya · inilah</b></span>
+    <span class="pill">Kata kerja: <b>menyentuh · memperkenalkan · disalurkan</b></span>
+    <span class="pill">Rangkap tiga: <b>kesihatan, pendidikan, masa depan</b></span>
+  </div>
+  <div class="deck-footer"><span>Isi sama — tenaga berbeza sepenuhnya</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- DRILL + CLOSER -->
+<section class="slide center" data-title="Latihan">
+  <p class="kicker">Latihan Harian / Daily Drill</p>
+  <h1 class="h1">5 minit. <span class="gradient-text">Setiap hari.</span></h1>
+  <div class="grid g3" style="max-width:940px;margin-top:10px">
+    <div class="cbox"><h4>1 · Tukar kata kerja</h4><p>Ambil 1 ayat → ganti setiap kata kerja lemah dengan yang hidup. / Swap weak verbs in one sentence.</p></div>
+    <div class="cbox"><h4>2 · Rantai penyambung</h4><p>Cakap 60 saat; paksa guna 5 penanda wacana berbeza. / Force 5 connectors in 60s.</p></div>
+    <div class="cbox"><h4>3 · Jeda, bukan "ee"</h4><p>Rakam; setiap kali nak sebut "ee" — diam &amp; bernafas. / Pause instead of filler.</p></div>
+  </div>
+  <p class="lede" style="margin-top:16px">Kuasai <b>cara</b>, dan mana-mana isu akan kedengaran meyakinkan.<br><span class="en">Master the delivery, and any topic will sound convincing.</span></p>
+  <div class="deck-footer"><span>Pasangan: pengucapan-awam-contoh.html · pembentangan.md</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+</div>
+<div class="hint">← → navigasi · F skrin penuh</div>
+<script>
+(function(){
+  var slides=[].slice.call(document.querySelectorAll('.slide'));
+  var i=0, total=slides.length;
+  function render(){
+    slides.forEach(function(s,n){s.classList.toggle('is-active',n===i);});
+    var s=slides[i];
+    s.querySelectorAll('.cur').forEach(function(e){e.textContent=i+1;});
+    s.querySelectorAll('.tot').forEach(function(e){e.textContent=total;});
+    var p=s.querySelector('.progress'); if(p)p.style.width=((i+1)/total*100)+'%';
+    if(location.hash!=='#'+(i+1))history.replaceState(null,'','#'+(i+1));
+  }
+  function go(n){i=Math.max(0,Math.min(total-1,n));render();}
+  document.addEventListener('keydown',function(e){
+    if(['ArrowRight',' ','PageDown'].indexOf(e.key)>-1){go(i+1);e.preventDefault();}
+    else if(['ArrowLeft','PageUp'].indexOf(e.key)>-1){go(i-1);e.preventDefault();}
+    else if(e.key==='Home'){go(0);} else if(e.key==='End'){go(total-1);}
+    else if(e.key==='f'||e.key==='F'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+  });
+  var x0=null;
+  document.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});
+  document.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)go(dx<0?i+1:i-1);x0=null;},{passive:true});
+  document.getElementById('deck').addEventListener('click',function(e){var w=window.innerWidth;if(e.clientX>w*0.75)go(i+1);else if(e.clientX<w*0.25)go(i-1);});
+  var h=parseInt((location.hash||'').replace('#',''),10);
+  if(h>=1&&h<=total)i=h-1;
+  render();
+})();
+</script>
+</body>
+</html>

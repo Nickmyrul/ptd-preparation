@@ -71,6 +71,8 @@ The real challenge = **structure in 1 minute**. Don't chase perfect words — pi
 
 ---
 
+> 🗣️ **Teknik aliran (deck):** buka **[`teknik-pengucapan.html`](teknik-pengucapan.html)** — fokus *cara*, bukan isu: bank penanda wacana (penyambung), kata kerja mati→hidup, teknik aliran (kata gema, jambatan "so what", rangkap tiga), buang filler. Inspirasi: pendekatan articulacy Joseph Tsar. / Delivery-craft deck: connectors, live verbs, flow, fillers.
+
 ## 🎤 Teknik Penyampaian (kedua-dua) / Delivery (both tasks)
 - **Kontak mata** merata; **bahasa badan** terbuka; senyum ringkas.
 - Nada terkawal, **jeda untuk penekanan** — jangan laju. / Controlled pace, pause for emphasis.
