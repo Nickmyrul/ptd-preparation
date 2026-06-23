@@ -7,6 +7,7 @@ Latest format: **8–10 candidates**, **parliamentary style** — usually a **Go
 Bahasa: **BM atau English** (ikut arahan/sesi). / Language: Malay or English as instructed.
 
 > 🖥️ **Deck perbincangan:** buka **[`perbincangan-deck.html`](perbincangan-deck.html)** — format, aliran 5 fasa, strategi ikut peranan, frasa diplomatik siap pakai, buat/elak, menonjol tanpa dominasi & capai keputusan. Dwibahasa; slideshow di komputer, skrol di telefon. / Group-discussion deck — bilingual; slideshow on desktop, scroll on phone.
+> 🖨️ **Cheat-sheet (cetak/PDF):** buka **[`perbincangan-cheatsheet.html`](perbincangan-cheatsheet.html)** → cetak / "Save as PDF" (A4). Frasa diplomatik + buat/elak + ayat keputusan dalam 1 muka. / Print/PDF one-pager: diplomatic phrases + do/avoid + decision lines.
 
 ---
 

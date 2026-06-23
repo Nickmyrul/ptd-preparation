@@ -58,6 +58,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🗣️ **Perbincangan kumpulan (deck):** buka **[`01-pac/perbincangan-deck.html`](01-pac/perbincangan-deck.html)** — format 8–10 (Kerajaan/Pembangkang/Moderator), aliran 5 fasa, frasa diplomatik siap pakai, cara menonjol tanpa dominasi &amp; capai keputusan. Dwibahasa. / Group-discussion deck: parliamentary format, 5-phase flow, ready diplomatic phrases, how to stand out without dominating, reaching a decision.
 
+🖨️ **Cheat-sheet perbincangan (cetak/PDF):** buka **[`01-pac/perbincangan-cheatsheet.html`](01-pac/perbincangan-cheatsheet.html)** → cetak → "Save as PDF". Frasa diplomatik + buat/elak + ayat keputusan dalam 1 muka A4. / Print/PDF cheat-sheet: diplomatic phrases + do/avoid + decision lines on one A4.
+
 🖨️ **Cheat-sheet rangka (cetak/PDF):** buka **[`01-pac/rangka-ucapan-cheatsheet.html`](01-pac/rangka-ucapan-cheatsheet.html)** → cetak → "Save as PDF". Semua ayat siap pakai dalam 1 muka A4 — guna semasa 20 minit persediaan. / Print/PDF cheat-sheet of all the ready lines on one A4 page for the prep window.
 
 ---
