@@ -1,49 +1,50 @@
 # PTD Preparation — PAC & UKJK 2026
 
 Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan Jasmani Kebangsaan (UKJK)** bagi pengambilan **Kadet Pegawai Tadbir dan Diplomatik (PTD)** — Program Diploma Pascasiswazah Pengurusan Awam INTAN 2027.
+*Preparation for the Profession Assessment Centre (PAC) and the National Physical Fitness Test (UKJK) for the intake of Administrative & Diplomatic Officer (PTD) cadets — INTAN Postgraduate Diploma in Public Management 2027.*
 
 > Panduan persediaan peribadi. **Sahkan semua butiran rasmi** (tarikh, sesi, lokasi, dokumen) dalam e-mel/Lampiran SPA & Portal SPA. / Personal study guide — verify all official details against the SPA email & portal.
 
 ---
 
-## 📌 Maklumat Penting (Key Dates)
+## 📌 Maklumat Penting / Key Dates
 
-| Perkara | Tarikh / Detail |
+| Perkara / Item | Tarikh / Detail |
 |---|---|
-| **Tarikh ujian (PAC + UKJK)** | **4 Julai 2026 (Sabtu)** |
-| Masa pendaftaran | **7:00 pagi** |
-| Tempat | **INTAN Wilayah Selatan (IKWAS)**, KM 3 Jalan Batu Pahat, 86007 Kluang, Johor |
-| **Lengkapkan MyResume** | **28 Jun 2026 (Ahad), 5:00 petang** — `myresume.spa.gov.my` |
-| Tempoh program | 1 hari sahaja |
-| Kos perjalanan/penginapan/makan | **Tanggungan calon sendiri** (bawa makanan & air sendiri) |
-| Talian bantuan PAC | 03-8091 9477 · `unitpac@spa.gov.my` |
+| **Tarikh ujian / Test date (PAC + UKJK)** | **4 Julai / 4 July 2026 (Sabtu / Sat)** |
+| Masa pendaftaran / Registration | **7:00 pagi / 7:00 a.m.** |
+| Tempat / Venue | **INTAN Wilayah Selatan (IKWAS)**, KM 3 Jalan Batu Pahat, 86007 Kluang, Johor |
+| **Lengkapkan MyResume / Complete MyResume** | **28 Jun 2026 (Ahad / Sun), 5:00 petang / 5:00 p.m.** — `myresume.spa.gov.my` |
+| Tempoh / Duration | 1 hari sahaja / One day only |
+| Kos / Cost (perjalanan, penginapan, makan / travel, lodging, meals) | **Tanggungan calon sendiri** / Candidate's own cost (bawa makanan & air / bring your own food & water) |
+| Talian bantuan / Helpline | 03-8091 9477 · `unitpac@spa.gov.my` |
 
-⚠️ **Pertukaran tarikh / pusat TIDAK DIBENARKAN.**
+⚠️ **Pertukaran tarikh / pusat TIDAK DIBENARKAN.** / **Date/centre changes are NOT permitted.**
 
 ---
 
-## 🗂️ Struktur Repo
+## 🗂️ Struktur Repo / Repo Structure
 
-| Folder | Isi |
+| Folder | Isi / Contents |
 |---|---|
-| [`00-logistik/`](00-logistik/) | Butiran acara, senarai dokumen MyResume, senarai bawaan, kod pakaian |
-| [`01-pac/`](01-pac/) | Persediaan Profession Assessment Centre — perbincangan kumpulan, kajian kes, pembentangan, esei, ujian psikometrik, isu semasa |
-| [`02-ukjk/`](02-ukjk/) | Persediaan ujian kecergasan jasmani |
-| [`03-temuduga/`](03-temuduga/) | Persediaan temu duga akhir (peringkat seterusnya) |
-| [`sumber/`](sumber/) | Pautan & bahan rujukan |
-| [`study-plan.md`](study-plan.md) | Jadual kira-detik (countdown) ke 4 Julai |
-| [`.claude/skills/storm-research/`](.claude/skills/storm-research/) | Skill **STORM** — riset isu semasa pelbagai sudut (guna dalam Claude Code) |
+| [`00-logistik/`](00-logistik/) | Butiran acara, dokumen MyResume, senarai bawaan, kod pakaian / Event details, MyResume docs, packing list, dress code |
+| [`01-pac/`](01-pac/) | Persediaan PAC — perbincangan, kajian kes, pengucapan, esei, psikometrik, isu semasa / PAC prep — discussion, case study, speaking, essay, psychometric, current affairs |
+| [`02-ukjk/`](02-ukjk/) | Persediaan ujian kecergasan jasmani / Physical-fitness test prep |
+| [`03-temuduga/`](03-temuduga/) | Persediaan temu duga akhir / Final interview prep |
+| [`sumber/`](sumber/) | Pautan & bahan rujukan / Links & reference materials |
+| [`study-plan.md`](study-plan.md) | Jadual kira-detik ke 4 Julai / Countdown plan to 4 July |
+| [`.claude/skills/storm-research/`](.claude/skills/storm-research/) | Skill **STORM** — riset isu semasa pelbagai sudut / multi-angle current-affairs research (in Claude Code) |
 
 ---
 
-## 🧩 Format PAC Terkini (4 komponen — sahkan Lampiran A)
+## 🧩 Format PAC Terkini / Latest PAC Format (4 komponen — sahkan Lampiran A / verify Annex A)
 
-| # | Komponen | Bahasa | Masa |
+| # | Komponen / Component | Bahasa / Language | Masa / Time |
 |---|---|---|---|
-| 1 | Esei isu semasa | BM **atau** English | ± 45 min |
-| 2 | Pengucapan awam (bersedia) | BM | 5 min (tajuk ± 20 min awal) |
-| 3 | Pengucapan spontan (impromptu) | BM/English | 1 min fikir + 4 min cakap |
-| 4 | Perbincangan kumpulan (8–10 org, kerajaan/pembangkang/moderator) | BM/English | ± 20–30 min |
+| 1 | Esei isu semasa / Current-issue essay | BM **atau / or** English | ± 45 min |
+| 2 | Pengucapan awam (bersedia) / Prepared public speaking | BM | 5 min (tajuk ± 20 min awal / topic ~20 min ahead) |
+| 3 | Pengucapan spontan / Impromptu | BM/English | 1 min fikir + 4 min cakap / 1 min think + 4 min speak |
+| 4 | Perbincangan kumpulan / Group discussion (8–10, kerajaan/pembangkang/moderator) | BM/English | ± 20–30 min |
 
 ➡️ Butiran penuh + rangka latihan (dwibahasa): [`01-pac/format-terkini.md`](01-pac/format-terkini.md)
 
@@ -61,13 +62,13 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 ---
 
-## ✅ Tindakan Segera (mulai hari ini)
+## ✅ Tindakan Segera / Immediate Actions (mulai hari ini / starting today)
 
-1. **Lengkapkan MyResume sebelum 28 Jun** — muat naik semua dokumen (lihat [`00-logistik/myresume-checklist.md`](00-logistik/myresume-checklist.md)). Gagal = boleh jejaskan pertimbangan ke temu duga.
-2. Mula latihan fizikal ringan **sekarang** untuk UKJK (lihat [`02-ukjk/`](02-ukjk/)).
-3. Baca isu semasa Malaysia setiap hari (Belanjawan, MADANI, RMK-13, dasar awam).
-4. Sahkan logistik perjalanan ke Kluang (4 Julai, daftar 7 pagi — rancang penginapan/perjalanan awal).
+1. **Lengkapkan MyResume sebelum 28 Jun** — muat naik semua dokumen ([`00-logistik/myresume-checklist.md`](00-logistik/myresume-checklist.md)). / **Complete MyResume before 28 Jun** — upload all documents. Failing this can hurt your interview consideration.
+2. Mula latihan fizikal ringan **sekarang** untuk UKJK ([`02-ukjk/`](02-ukjk/)). / Start light physical training **now** for UKJK.
+3. Baca isu semasa Malaysia setiap hari (Belanjawan, MADANI, RMK-13, dasar awam). / Read Malaysian current affairs daily.
+4. Sahkan logistik perjalanan ke Kluang (4 Julai, daftar 7 pagi). / Confirm travel logistics to Kluang (4 July, 7 a.m. registration — plan early).
 
 ---
 
-> **Nota:** Semak butiran rasmi terhadap **LAMPIRAN A, B, C** dalam e-mel SPA. Kandungan repo ini adalah panduan persediaan; spesifikasi rasmi (terutama jenis ujian UKJK dalam Lampiran C) hendaklah diambil daripada surat SPA.
+> **Nota / Note:** Semak butiran rasmi terhadap **LAMPIRAN A, B, C** dalam e-mel SPA. Kandungan repo ini panduan persediaan; spesifikasi rasmi (terutama jenis ujian UKJK dalam Lampiran C) hendaklah diambil daripada surat SPA. / Verify official details against **Annexes A, B, C** in the SPA email. This repo is a study guide; official specs (especially the UKJK tests in Annex C) must come from the SPA letter.
