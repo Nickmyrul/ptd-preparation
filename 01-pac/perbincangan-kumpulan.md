@@ -6,6 +6,8 @@ Latest format: **8–10 candidates**, **parliamentary style** — usually a **Go
 
 Bahasa: **BM atau English** (ikut arahan/sesi). / Language: Malay or English as instructed.
 
+> 🖥️ **Deck perbincangan:** buka **[`perbincangan-deck.html`](perbincangan-deck.html)** — format, aliran 5 fasa, strategi ikut peranan, frasa diplomatik siap pakai, buat/elak, menonjol tanpa dominasi & capai keputusan. Dwibahasa; slideshow di komputer, skrol di telefon. / Group-discussion deck — bilingual; slideshow on desktop, scroll on phone.
+
 ---
 
 ## 🎯 Apa Penilai Cari / What Assessors Look For

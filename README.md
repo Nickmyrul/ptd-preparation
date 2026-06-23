@@ -55,6 +55,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🧩 **Rangka ucapan universal:** buka **[`01-pac/rangka-ucapan.html`](01-pac/rangka-ucapan.html)** — teknik + ayat siap pakai untuk **Pembukaan · Masalah · Penyelesaian · Cabaran · Penutup**, supaya mana-mana tajuk boleh diisi ke dalam rangka yang sama. / Universal speech framework: techniques + ready lines for Intro · Problem · Solution · Challenges · Closing — drop any topic into the same skeleton.
 
+🗣️ **Perbincangan kumpulan (deck):** buka **[`01-pac/perbincangan-deck.html`](01-pac/perbincangan-deck.html)** — format 8–10 (Kerajaan/Pembangkang/Moderator), aliran 5 fasa, frasa diplomatik siap pakai, cara menonjol tanpa dominasi &amp; capai keputusan. Dwibahasa. / Group-discussion deck: parliamentary format, 5-phase flow, ready diplomatic phrases, how to stand out without dominating, reaching a decision.
+
 🖨️ **Cheat-sheet rangka (cetak/PDF):** buka **[`01-pac/rangka-ucapan-cheatsheet.html`](01-pac/rangka-ucapan-cheatsheet.html)** → cetak → "Save as PDF". Semua ayat siap pakai dalam 1 muka A4 — guna semasa 20 minit persediaan. / Print/PDF cheat-sheet of all the ready lines on one A4 page for the prep window.
 
 ---
