@@ -8,6 +8,8 @@
 
 PTD menuntut penulisan yang **matang, berstruktur, dan padat fakta**. / PTD essays must be **mature, structured, fact-rich**.
 
+> 🧩 **Rangka penuh + ayat siap pakai + belanjawan masa 45 min → [`rangka-esei.md`](rangka-esei.md).** / Full framework + ready stems + 45-min budget.
+
 ## Struktur Esei Standard
 1. **Pengenalan** — definisi/konteks + pernyataan tesis (pendirian anda)
 2. **Isi 1** — hujah + huraian + contoh/data + kaitan

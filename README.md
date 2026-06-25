@@ -48,6 +48,10 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 ➡️ Butiran penuh + rangka latihan (dwibahasa): [`01-pac/format-terkini.md`](01-pac/format-terkini.md)
 
+📘 **Tentang PTD (apa, peranan, tugas, sejarah, kerjaya):** [`01-pac/tentang-ptd.md`](01-pac/tentang-ptd.md) — guna untuk esei, temu duga &amp; "Mengapa PTD?". / What the PTD is, its role, functions, history & career path — for essays, interview & "Why PTD?".
+
+✍️ **Rangka esei universal:** [`01-pac/rangka-esei.md`](01-pac/rangka-esei.md) — struktur 5-perenggan, belanjawan masa 45 min, ayat siap pakai & templat untuk mana-mana tajuk. / Universal essay framework: 5-paragraph structure, 45-min budget, ready stems & fill-in template.
+
 🖥️ **Bacaan harian isu semasa:** buka **[`01-pac/isu-semasa-deck.html`](01-pac/isu-semasa-deck.html)** dalam pelayar — **20 isu teras** (dwibahasa) dengan ayat padat + slaid sumber. Baca setiap hari sehingga 4 Julai. / Open the HTML deck in a browser; 20 bilingual issues with soundbites + a sources slide, to read daily.
 
 🖨️ **Ulang kaji luar talian (cetak/PDF):** buka **[`01-pac/isu-semasa-ringkasan.html`](01-pac/isu-semasa-ringkasan.html)** → tekan butang cetak → "Save as PDF". Semua 20 isu padat dalam beberapa muka A4. / Print/PDF revision sheet — all 20 issues on a few A4 pages.
