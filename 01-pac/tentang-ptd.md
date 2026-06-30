@@ -78,7 +78,29 @@ SPA (permohonan & saringan) → **peperiksaan / PAC** → **UKJK** → **temu du
 
 ---
 
-## 9. Mengapa Ia Penting / Why It Matters (untuk esei & temu duga)
+## 9. Persaraan & Pencen / Retirement & Pension (status setakat Jun 2026)
+
+> ⚠️ **Isu hangat — banyak khabar angin.** Bezakan **fakta rasmi** daripada **teori media sosial**. / **Hot topic with lots of rumours** — separate official facts from social-media theories.
+
+**✅ Yang RASMI / Confirmed (JPA):**
+- Skim pencen **BELUM dimansuhkan melalui Parlimen.** Perubahan memerlukan **pindaan akta** (cth. Akta Pencen 1980) yang belum dibuat. / Pension is **NOT yet abolished by Parliament**; it needs legislative amendment, not yet done.
+- Keputusan kerajaan **12 Julai 2023**: perkenalkan **kaedah lantikan tetap baharu** demi kemampanan fiskal. / Govt decided (12 Jul 2023) to introduce a new permanent-appointment method for fiscal sustainability.
+- Mulai **Feb 2024**: lantikan dibuat secara **kontrak interim**, tempoh **3 tahun** *atau* sehingga kaedah tetap baharu berkuat kuasa; gaji sama dengan tetap; **caruman KWSP** sepanjang tempoh. / From Feb 2024, appointments are on an **interim contract** (3 years or until the new method starts), same pay, with **EPF/KWSP** contributions.
+- Selepas itu → ditetapkan ke **jawatan tetap** melalui kaedah baharu (tertakluk prestasi & pengesahan). / Then confirmed to a **permanent post** via the new method.
+- **Penjawat sedia ada (skim pencen) TIDAK terjejas.** / Existing pension-scheme officers are **unaffected**.
+
+**⚠️ Yang BELUM disahkan / Not yet confirmed:**
+- Sama ada wujud **pilihan "pencen atau teruskan KWSP"** semasa pengesahan tetap — ini **tafsiran yang beredar**, bukan fakta rasmi. Sebahagian laporan sebaliknya menyebut lantikan tetap baharu = **KWSP penuh tanpa opsyen pencen**. / Whether there's a **"pension vs EPF" choice** at confirmation is **an unconfirmed interpretation**; some reports suggest new permanent appointees go **full EPF, no pension option**.
+- **Mekanisme akhir masih diperhalusi & belum digubal jadi undang-undang** — jadi tiada siapa boleh nyatakan butirannya sebagai muktamad. / The **final mechanism is still being finalised** and not yet legislated.
+
+**Konteks fiskal / Fiscal context:** kos pencen RM37.4b (2025) → RM42.31b (2026) → ~RM46.36b (2030), ~2–3% KDNK — pemacu reformasi. / Pension bill rising to ~RM46.36b by 2030 (~2–3% of GDP) — the driver of reform.
+
+> 🧭 **Untuk anda / For you:** sahkan dengan **surat tawaran SPA/JPA & pekeliling rasmi**, bukan thread. / Verify with your **official SPA/JPA offer letter & circulars**, not social media.
+> 💡 **Untuk temu duga / For interview:** jawapan matang — *"dasar diumumkan, mekanisme masih diperhalusi, perlu pindaan akta; saya rujuk sumber rasmi."* Tunjuk anda bezakan fakta vs khabar angin. / A mature answer distinguishes confirmed policy from rumour.
+
+---
+
+## 10. Mengapa Ia Penting / Why It Matters (untuk esei & temu duga)
 - **Tulang belakang pentadbiran negara** — mengisi jawatan utama (KSU, Pegawai Daerah, Duta). / **Backbone of national administration** — fills top posts.
 - **Pemacu dasar** — daripada Belanjawan & RMK-13 ke perkhidmatan di kaunter. / **Policy driver** — from Budget & 13th Plan to counter-level service.
 - **Wajah kerajaan** — rakyat menilai kerajaan melalui perkhidmatan PTD. / **Face of government** — citizens judge government by PTD service.
@@ -87,7 +109,7 @@ SPA (permohonan & saringan) → **peperiksaan / PAC** → **UKJK** → **temu du
 
 ---
 
-## 10. Kaitan dengan Komponen PAC / Links to PAC Components
+## 11. Kaitan dengan Komponen PAC / Links to PAC Components
 - **Esei / pengucapan / impromptu:** guna peranan PTD untuk menjawab "Mengapa PTD?", "Peranan PTD dalam MADANI". / use the PTD role to answer "Why PTD?", "PTD's role in MADANI".
 - **Perbincangan:** tunjuk nilai PTD — diplomasi, kepentingan awam, capai keputusan. / show PTD values in the discussion.
 - **Temu duga:** lihat [`../03-temuduga/persediaan-temuduga.md`](../03-temuduga/persediaan-temuduga.md).
@@ -100,3 +122,4 @@ SPA (permohonan & saringan) → **peperiksaan / PAC** → **UKJK** → **temu du
 - SPA — PTD Gred M9: https://www.spa.gov.my
 - SSPA (Sistem Saraan Perkhidmatan Awam) — Lampiran gred & gaji: https://docs.jpa.gov.my/docs/sspa/
 - Latar belakang/sejarah PTD (ptd.my, hasrulhassan.com) — panduan, sahkan dengan JPA.
+- Persaraan/pencen — JPA Pelantikan Kontrak (sementara): https://www.jpa.gov.my/pelantikan/pelantikan-kontrak · MOF (penjawat sedia ada tidak terjejas): https://www.mof.gov.my · Gerbang Pencen JPA: https://pencen.jpa.gov.my
