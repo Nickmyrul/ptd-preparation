@@ -8,40 +8,38 @@ PAC assesses **competencies** (not memorisation): bilingual communication, criti
 
 ---
 
-## 🧩 Empat Komponen Teras / Four Core Components
+## 🧩 Komponen Teras / Core Components
 
-| # | Komponen / Component | Bahasa / Language | Masa / Time | Persediaan / Prep |
+> ✅ **Dikemas kini dari calon yang TELAH selesai PAC (2026).** / **Updated from a candidate who has COMPLETED the PAC (2026).**
+
+| # | Komponen / Component | Bahasa / Language | Persediaan / Prep | Bentang / Present |
 |---|---|---|---|---|
-| 1 | **Esei isu semasa** / Current-issue essay | BM **atau / or** English | **45 minit / min** | Tiada / none |
-| 2 | **Pengucapan awam** (bersedia) / Prepared public speaking | **BM** | **5 min** | Tajuk diberi ± **20 min** awal / topic given ~20 min ahead |
-| 3 | **Pengucapan spontan** / Impromptu speaking | BM **atau / or** English | **5 min** total | **1 min** fikir + **4 min** cakap / 1 min think + 4 min speak |
-| 4 | **Perbincangan kumpulan** / Group discussion | BM **atau / or** English | ± 20–30 min | **8–10 orang / people**; ada Kerajaan/Pembangkang/Moderator |
+| 1 | **Esei isu semasa** / Current-issue essay | BM **atau / or** English | — | **± 45 min** (tulis / write) |
+| 2 | **Instant insight** (spontan / impromptu) | BM/English | **2 min** | **3 min** |
+| 3 | **Pengucapan awam** / Public speaking | BM/English | **2 min** | **5 min** |
+| 4 | **Debat** / Debate | BM/English | **10 min** | ikut giliran / by turns |
 
-> ⚠️ Masa di atas ialah **anggaran terkini calon** — bukan rasmi. Esei mungkin 45 min (terkini) berbanding 1 jam (sesi lama). Loceng pengucapan awam lazimnya dibunyikan pada **minit ke-4** (amaran) dan **minit ke-5** (tamat).
-> The times above are **recent candidate estimates**, not official. Essay may be 45 min (recent) vs 1 hour (older sessions). Public-speaking bell usually rings at **minute 4** (warning) and **minute 5** (stop).
+> ⚠️ **Debat:** kumpulan dibahagi **Kerajaan vs Pembangkang**. Jika bilangan ahli **genap**, kedua-dua pihak sama bilangan; jika **ganjil**, **fasilitator tentukan** siapa Kerajaan / Pembangkang. / Group split into **Government vs Opposition**; if the number is even, sides are equal; if odd, the **facilitator decides** the sides.
+> Masa & format boleh berubah ikut sesi/pusat — sahkan Lampiran A. / Timing/format can vary — verify Annex A.
 
 ---
 
-## 1️⃣ Esei Isu Semasa / Current-Issue Essay — 45 min
-- Pilih **satu bahasa** (BM atau English) ikut keselesaan & kekuatan anda.
-- Tajuk = **isu semasa** (dalam &/atau luar negara). Baca isu nasional **dan** antarabangsa.
-- Panduan penuh / full guide → [`esei.md`](esei.md)
+## 1️⃣ Esei Isu Semasa / Current-Issue Essay — ± 45 min
+- Pilih **satu bahasa** ikut kekuatan. Tajuk = **isu semasa** (dalam/luar negara).
+- Rangka + ayat siap pakai → [`rangka-esei.md`](rangka-esei.md) · panduan → [`esei.md`](esei.md)
 
-## 2️⃣ Pengucapan Awam Bersedia / Prepared Public Speaking — BM, 5 min
-- **Tajuk diberi awal (± 20 min)** → gunakan masa itu untuk rangka & latih.
-- Boleh dirangka pada hari ujian — sediakan **rangka serba boleh** lebih awal.
-- Panduan + rangka / guide + frameworks → [`pembentangan.md`](pembentangan.md)
+## 2️⃣ Instant Insight (Spontan) — 2 min sedia + 3 min bentang
+- Tajuk diberi → **2 minit fikir, 3 minit cakap.** Selalunya **isu semasa**.
+- Rangka pantas **PREP** (Point-Reason-Example-Point) supaya tak beku. → [`pembentangan.md`](pembentangan.md)
 
-## 3️⃣ Pengucapan Spontan / Impromptu Speaking — BM/English, 5 min
-- **1 minit fikir, 4 minit cakap.** Tajuk = selalunya **isu semasa**.
-- Kuasai **rangka pantas** (PREP / 4P) supaya tak beku. Kesedaran isu semasa = kelebihan besar.
-- Panduan + rangka / guide + frameworks → [`pembentangan.md`](pembentangan.md) (bahagian B / section B)
+## 3️⃣ Pengucapan Awam / Public Speaking — 2 min sedia + 5 min bentang
+- **2 minit rangka, 5 minit bentang.** Struktur: Pembukaan → 3 isi (PEEL) → Penutup.
+- Rangka + 5 contoh penuh → [`pengucapan-deck.html`](pengucapan-deck.html) · [`rangka-ucapan.html`](rangka-ucapan.html)
 
-## 4️⃣ Perbincangan Kumpulan / Group Discussion — 8–10 orang
-- Format gaya parlimen: **Kerajaan vs Pembangkang**, kadang **Moderator**.
-- Matlamat: capai **keputusan akhir** secara kolektif.
-- **Diplomasi, sederhana, bantu orang lain bercakap, jangan dominasi.**
-- Panduan penuh / full guide → [`perbincangan-kumpulan.md`](perbincangan-kumpulan.md)
+## 4️⃣ Debat / Debate — 10 min persediaan
+- Dibahagi **Kerajaan (sokong) vs Pembangkang (bantah)**; fasilitator tentukan pihak (jika ganjil).
+- Sediakan **hujah pihak sendiri + jangkaan hujah lawan + sangkalan (rebuttal)** dalam 10 min.
+- Kekal **diplomatik & matang** — serang isu, bukan orang. → [`perbincangan-deck.html`](perbincangan-deck.html)
 
 ---
 

@@ -39,12 +39,14 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 ## 🧩 Format PAC Terkini / Latest PAC Format (4 komponen — sahkan Lampiran A / verify Annex A)
 
-| # | Komponen / Component | Bahasa / Language | Masa / Time |
+| # | Komponen / Component | Bahasa / Language | Sedia + Bentang / Prep + Present |
 |---|---|---|---|
-| 1 | Esei isu semasa / Current-issue essay | BM **atau / or** English | ± 45 min |
-| 2 | Pengucapan awam (bersedia) / Prepared public speaking | BM | 5 min (tajuk ± 20 min awal / topic ~20 min ahead) |
-| 3 | Pengucapan spontan / Impromptu | BM/English | 1 min fikir + 4 min cakap / 1 min think + 4 min speak |
-| 4 | Perbincangan kumpulan / Group discussion (8–10, kerajaan/pembangkang/moderator) | BM/English | ± 20–30 min |
+| 1 | Esei isu semasa / Current-issue essay | BM **atau / or** English | ± 45 min menulis / writing |
+| 2 | Instant insight (spontan / impromptu) | BM/English | **2 min sedia + 3 min bentang** |
+| 3 | Pengucapan awam / Public speaking | BM/English | **2 min sedia + 5 min bentang** |
+| 4 | Debat / Debate (Kerajaan vs Pembangkang) | BM/English | **10 min persediaan** |
+
+> ✅ Format dikemas kini dari calon yang **telah selesai PAC 2026** — sahkan Lampiran A. / Updated from a candidate who **completed the 2026 PAC** — verify Annex A.
 
 ➡️ Butiran penuh + rangka latihan (dwibahasa): [`01-pac/format-terkini.md`](01-pac/format-terkini.md)
 
