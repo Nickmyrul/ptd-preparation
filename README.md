@@ -68,6 +68,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🖨️ **Cheat-sheet rangka (cetak/PDF):** buka **[`01-pac/rangka-ucapan-cheatsheet.html`](01-pac/rangka-ucapan-cheatsheet.html)** → cetak → "Save as PDF". Semua ayat siap pakai dalam 1 muka A4 — guna semasa 20 minit persediaan. / Print/PDF cheat-sheet of all the ready lines on one A4 page for the prep window.
 
+🎯 **Buka · Isi · Tutup untuk 3 penilaian (mana-mana tajuk):** [`01-pac/rangka-3-penilaian.md`](01-pac/rangka-3-penilaian.md) · cheat-sheet cetak/telefon: **[`01-pac/rangka-3-penilaian-cheatsheet.html`](01-pac/rangka-3-penilaian-cheatsheet.html)** — pembukaan &amp; penutup universal + rangka Instant Insight / Pengucapan Awam / Debat. / Universal openings & closings + frames for all 3 oral tasks, any topic.
+
 ---
 
 ## ✅ Tindakan Segera / Immediate Actions (mulai hari ini / starting today)
