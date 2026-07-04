@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PAC PTD — Rangka & Contoh Lisan (Kongsi Team) / Oral Frames & Examples</title>
+<style>
+:root{
+  --bg:#0f1822; --bg-soft:#13202c; --surface:#182838; --surface-2:#1f3346;
+  --border:#2a4156; --text-1:#eef5fb; --text-2:#b8cad9; --text-3:#7d93a6;
+  --accent:#4cc9f0; --accent-2:#56e39f; --accent-3:#ffd166; --bad:#ff7a7a;
+  --radius:16px; --radius-s:10px; --font-sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text-1);overflow:hidden;-webkit-font-smoothing:antialiased}
+.deck{height:100vh;width:100vw;position:relative}
+.slide{position:absolute;inset:0;display:none;flex-direction:column;padding:32px 52px 48px;opacity:0;transition:opacity .35s ease;background:radial-gradient(1200px 600px at 80% -10%,rgba(76,201,240,.08),transparent 60%)}
+.slide.is-active{display:flex;opacity:1}
+.slide.center{justify-content:center;align-items:center;text-align:center}
+.kicker{font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.h1{font-size:48px;line-height:1.05;font-weight:900;letter-spacing:-.02em;margin:12px 0}
+.h2{font-size:28px;line-height:1.12;font-weight:800;letter-spacing:-.01em;margin:2px 0}
+.lede{font-size:17px;color:var(--text-2);max-width:64ch;line-height:1.5}
+.gradient-text{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.en{color:var(--text-3);font-style:italic}
+.goal{font-size:14px;color:var(--text-2);margin-top:4px}
+.grid{display:grid;gap:10px;margin-top:12px}
+.g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:1fr 1fr}
+.cbox{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:12px 14px}
+.cbox h4{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--accent-2);margin-bottom:6px}
+.cbox p{font-size:13.5px;line-height:1.44}
+.cbox .tm{color:var(--accent-3);font-weight:700;font-size:12px;margin-top:5px}
+.ph{margin:7px 0;padding:9px 13px;background:var(--bg-soft);border-left:3px solid var(--accent-3);border-radius:6px;font-size:14px;line-height:1.44}
+.ph .k{display:block;color:var(--accent);font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
+.ph .en{display:block;color:var(--text-3);font-size:12px;font-style:italic;margin-top:2px}
+.blk{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-s);padding:10px 14px;margin-top:8px}
+.blk .lab{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--accent)}
+.blk .lab .t{color:var(--accent-3);font-weight:700;margin-left:6px}
+.blk p{font-size:14px;line-height:1.46;margin-top:4px}
+.blk.open{border-left:3px solid var(--accent)} .blk.close{border-left:3px solid var(--accent-3)}
+.bl{color:var(--accent-3);font-weight:600}
+.note{margin-top:10px;background:linear-gradient(90deg,rgba(76,201,240,.10),rgba(86,227,159,.05));border-left:4px solid var(--accent);border-radius:8px;padding:10px 14px;font-size:13.5px;line-height:1.44}
+.note b{color:var(--accent-3)}
+.pill{display:inline-block;background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:4px 12px;font-size:12px;font-weight:600;margin:3px 5px 0 0}
+.pill b{color:var(--accent)}
+.deck-footer{position:absolute;left:52px;right:52px;bottom:16px;display:flex;justify-content:space-between;align-items:center;font-size:11.5px;color:var(--text-3)}
+.progress{position:absolute;left:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--accent),var(--accent-2));transition:width .35s ease;width:0}
+.hint{position:absolute;top:13px;right:18px;font-size:11px;color:var(--text-3)}
+.num{font-size:11.5px;color:var(--text-3);font-weight:700}
+</style>
+<style id="responsive-mode">
+/* DEFAULT = stacked scroll (no JS, phone-safe) */
+html,body{height:auto;overflow:auto}
+.deck{height:auto;width:auto;position:static;max-width:1000px;margin:0 auto;padding:6px 0 36px;counter-reset:sl}
+.slide{position:relative;display:flex;opacity:1;inset:auto;min-height:auto;height:auto;overflow:visible;transition:none;border:1px solid var(--border);border-radius:14px;margin:14px 10px;background:var(--bg-soft);counter-increment:sl}
+.slide::before{content:"#" counter(sl);position:absolute;top:8px;left:14px;font-size:10px;font-weight:800;color:var(--text-3)}
+.progress,.num,.hint,.navbar{display:none}
+.deck-footer{position:static;left:auto;right:auto;margin-top:14px;flex-wrap:wrap;gap:6px}
+.cols,.pane{overflow:visible;max-height:none;flex:none;min-height:0}
+@media (max-width:820px){
+  .g3,.g2{grid-template-columns:1fr}
+  .h1{font-size:28px}.h2{font-size:20px}.lede{font-size:15px}
+  .slide{padding:18px 14px;margin:10px 7px}
+}
+@media (min-width:821px){
+  body.present{overflow:hidden}
+  body.present .deck{height:100vh;width:100vw;position:relative;max-width:none;margin:0;padding:0}
+  body.present .slide{position:absolute;inset:0;display:none;opacity:0;height:auto;min-height:0;margin:0;border:0;border-radius:0;overflow:hidden;transition:opacity .35s ease;background:radial-gradient(1200px 600px at 80% -10%,rgba(76,201,240,.08),transparent 60%)}
+  body.present .slide::before{display:none}
+  body.present .slide.is-active{display:flex;opacity:1}
+  body.present .progress{display:block}
+  body.present .num{display:inline}
+  body.present .hint{display:block}
+  body.present .deck-footer{position:absolute;left:52px;right:52px;bottom:18px;margin-top:0;flex-wrap:nowrap}
+  body.present .navbar{display:flex;position:fixed;bottom:16px;right:18px;gap:8px;align-items:center;z-index:20;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:5px 10px}
+  body.present .navbar button{font:inherit;font-size:18px;line-height:1;width:30px;height:30px;border-radius:50%;border:1px solid var(--border);background:var(--surface-2);color:var(--text-1);cursor:pointer}
+  body.present .navbar .pg{font-size:12px;color:var(--text-3);min-width:46px;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+<!-- COVER -->
+<section class="slide center" data-title="Cover">
+  <p class="kicker">PTD · PAC 2026 · Kongsi Team</p>
+  <h1 class="h1">Rangka &amp; Contoh <span class="gradient-text">Lisan PAC</span></h1>
+  <p class="lede">Buka · Isi · Tutup untuk <b>3 tugasan lisan</b> — untuk mana-mana tajuk — plus 2 contoh sebenar. Slideshow di komputer, skrol di telefon.<br><span class="en">Open · Body · Close for the 3 oral tasks (any topic) + 2 worked examples. Slideshow on desktop, scroll on phone.</span></p>
+  <div style="margin-top:16px"><span class="pill">Instant Insight 2+3</span><span class="pill">Pengucapan Awam 2+5</span><span class="pill">Debat 10 min prep</span></div>
+  <div class="deck-footer"><span>Panduan latihan · sahkan format dengan Lampiran A SPA</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- FORMAT -->
+<section class="slide" data-title="Format">
+  <p class="kicker">Format 3 Tugasan / The 3 Oral Tasks</p>
+  <h2 class="h2">Masa sedia + bentang</h2>
+  <div class="grid g3">
+    <div class="cbox"><h4>Instant Insight</h4><p>Spontan / impromptu. Tajuk diberi → fikir, kemudian bentang.</p><div class="tm">⏱ 2 min sedia + 3 min bentang</div></div>
+    <div class="cbox"><h4>Pengucapan Awam</h4><p>Ucapan berstruktur. Rangka dulu, kemudian bentang.</p><div class="tm">⏱ 2 min sedia + 5 min bentang</div></div>
+    <div class="cbox"><h4>Debat</h4><p>Kumpulan dibahagi <b>Kerajaan vs Pembangkang</b> (fasilitator tentukan jika ganjil).</p><div class="tm">⏱ 10 min persediaan</div></div>
+  </div>
+  <div class="note">🎯 Apa penilai cari: <b>isi berfakta · dwibahasa · diplomasi &amp; kematangan · yakin &amp; tenang</b>. Ambil pendirian jelas, serang isu bukan orang. / Fact-based substance, bilingual, diplomacy, composure.</div>
+  <div class="deck-footer"><span>Format dari calon yang telah selesai PAC 2026 — sahkan Lampiran A</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- OPENINGS -->
+<section class="slide" data-title="Pembukaan">
+  <p class="kicker">Pembukaan Universal / Universal Openings</p>
+  <h2 class="h2">Pilih satu — isi [tajuk]</h2>
+  <div class="goal">Sapaan dulu: "Terima kasih tuan/puan pengerusi, para penilai, dan hadirin." / Greet first.</div>
+  <div class="grid g2">
+    <div>
+      <div class="ph"><span class="k">Soalan / Question</span>"Pernahkah kita terfikir apa akan jadi jika <span class="bl">[tajuk]</span> terus diabaikan?"<span class="en">"…what happens if [topic] keeps being ignored?"</span></div>
+      <div class="ph"><span class="k">Fakta / Fact</span>"Hari ini, <span class="bl">[1 fakta]</span> — realiti yang menuntut perhatian kita."<span class="en">"Today, [fact] — a reality that demands attention."</span></div>
+    </div>
+    <div>
+      <div class="ph"><span class="k">Berani / Bold</span>"<span class="bl">[Tajuk]</span> bukan sekadar isu; ia ujian masa depan negara."<span class="en">"[Topic] is a test of our nation's future."</span></div>
+      <div class="ph"><span class="k">Senario / Scenario</span>"Bayangkan seorang rakyat biasa yang berdepan <span class="bl">[kesan]</span> setiap hari."<span class="en">"Imagine a citizen facing [the effect] daily."</span></div>
+    </div>
+  </div>
+  <div class="note">Sambung peta jalan: "…tiga perkara: <span class="bl">[A], [B], [C]</span>." / Then the roadmap of three.</div>
+  <div class="deck-footer"><span>Buka kuat &amp; yakin dalam 10 saat pertama</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- CLOSINGS -->
+<section class="slide" data-title="Penutup">
+  <p class="kicker">Penutup Universal / Universal Closings</p>
+  <h2 class="h2">Pilih satu — akhiri "Sekian, terima kasih."</h2>
+  <div class="grid g2">
+    <div>
+      <div class="ph"><span class="k">Seruan / Call</span>"Justeru, marilah kita <span class="bl">[tindakan]</span> — kerana <span class="bl">[tajuk]</span> menentukan hala tuju negara."<span class="en">"Let us [act] — [topic] shapes our direction."</span></div>
+      <div class="ph"><span class="k">Rangkap 3 / Triad</span>"Kerana rakyat, negara, dan masa depan menuntut kita bertindak hari ini."<span class="en">"Our people, nation, and future demand action today."</span></div>
+    </div>
+    <div>
+      <div class="ph"><span class="k">Gema / Echo</span>"Kembali kepada persoalan awal — jawapannya di tangan kita."<span class="en">"Back to my opening question — the answer is ours."</span></div>
+      <div class="ph"><span class="k">Matang / Mature</span>"Setiap dasar ada cabaran, namun dengan keseimbangan &amp; keazaman, kita mampu ke hadapan."<span class="en">"Every policy has challenges; with balance &amp; resolve, we move forward."</span></div>
+    </div>
+  </div>
+  <div class="note">💡 Tahu ayat penutup anda <b>sebelum</b> mula bercakap. / Know your closing line before you start.</div>
+  <div class="deck-footer"><span>Ayat terakhir paling diingati</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- FRAMES -->
+<section class="slide" data-title="Rangka">
+  <p class="kicker">Rangka Setiap Tugasan / Frame per Task</p>
+  <h2 class="h2">Struktur pantas</h2>
+  <div class="grid g3">
+    <div class="cbox"><h4>Instant Insight (PREP)</h4><p>Buka+pendirian (~20s) → Poin 1·2·3 (point+sebab+<b>1 fakta</b>, ~45s each) → Tutup (~20s).</p></div>
+    <div class="cbox"><h4>Pengucapan Awam (PEEL)</h4><p>0:00 Buka (cangkuk+pendirian+3) → 0:30/1:50/3:05 Isi (Point-Explain-<b>Example/fakta</b>-Link) → 4:10 Tutup.</p></div>
+    <div class="cbox"><h4>Debat</h4><p>Buka (definisi+pendirian pihak) → 3 hujah (+fakta) → sangkalan (jangka hujah lawan) → tutup.</p></div>
+  </div>
+  <div class="note">Tiga sudut serba boleh untuk isi mana-mana tajuk: <b>ekonomi · sosial · pentadbiran</b>. / Universal angles: economic · social · governance.</div>
+  <div class="deck-footer"><span>1 fakta/dasar setiap poin (MADANI, Belanjawan 2026, RMK-13, BUDI95…)</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- DEBATE LINES -->
+<section class="slide" data-title="Debat">
+  <p class="kicker">Debat / Debate — Ayat Ikut Pihak</p>
+  <h2 class="h2">Kerajaan vs Pembangkang</h2>
+  <div class="grid g2">
+    <div>
+      <div class="ph"><span class="k">Kerajaan buka / Govt open</span>"Pihak Kerajaan tegas menyokong <span class="bl">[usul]</span>, kerana <span class="bl">[manfaat]</span>."<span class="en">"The Government firmly supports [motion], because [benefit]."</span></div>
+      <div class="ph"><span class="k">Pembangkang buka / Opp open</span>"Pihak Pembangkang berpendirian <span class="bl">[usul]</span> perlu diteliti semula, kerana <span class="bl">[risiko]</span>."<span class="en">"The Opposition holds [motion] must be reconsidered, because [risk]."</span></div>
+    </div>
+    <div>
+      <div class="ph"><span class="k">Sangkalan / Rebuttal</span>"Saya memahami hujah itu, namun datanya menunjukkan <span class="bl">[fakta]</span>…"<span class="en">"I understand that, but the data shows [fact]…"</span></div>
+      <div class="ph"><span class="k">Tutup / Close</span>"Justeru pihak <span class="bl">[K/P]</span> menegaskan <span class="bl">[pendirian]</span> — demi rakyat &amp; negara. Sekian, terima kasih."</div>
+    </div>
+  </div>
+  <div class="note">Sedia 10 min: definisi &amp; skop · 3 hujah+fakta · 3 jangkaan lawan+sangkalan · buka &amp; tutup. Serang isu, bukan orang. / Prep both sides; attack the issue, not the person.</div>
+  <div class="deck-footer"><span>Diplomatik &amp; matang — imej PTD</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- EXAMPLE 1: SPEECH -->
+<section class="slide" data-title="Contoh Ucapan">
+  <p class="kicker">Contoh Pengucapan Awam / Worked Speech</p>
+  <h2 class="h2">"Tenaga Boleh Diperbaharui: Agenda Masa Depan Negara"</h2>
+  <div class="goal"><b>Pendirian:</b> tenaga boleh diperbaharui bukan pilihan — ia keperluan untuk kemampanan, ekonomi &amp; keselamatan negara.</div>
+  <div class="blk open"><span class="lab">Buka <span class="t">0:00</span></span><p>"Bayangkan sebuah negara yang tenaganya bersih, karbonnya sifar, ekonominya berkembang serentak. Itulah janji tenaga boleh diperbaharui. Saya menyentuh tiga perkara: <b>kemampanan alam, peluang ekonomi, dan keselamatan tenaga.</b>"</p></div>
+  <div class="blk"><span class="lab">Isi 1 · Kemampanan <span class="t">0:30</span></span><p>Menyelamatkan alam &amp; memenuhi komitmen iklim — Malaysia sasar <b>Net Zero 2050</b> melalui <b>NETR</b> (solar &amp; hidro). Generasi akan datang mewarisi bumi yang kita jaga.</p></div>
+  <div class="blk"><span class="lab">Isi 2 · Ekonomi <span class="t">1:50</span></span><p>Enjin pertumbuhan &amp; kerja hijau — <b>RMK-13 (RM611b)</b> letak tenaga boleh baharu antara industri nilai tinggi (HGHV); tarik pelaburan (kait TVET).</p></div>
+  <div class="blk"><span class="lab">Isi 3 · Keselamatan + Cabaran <span class="t">3:05</span></span><p>Kurang pergantungan import &amp; lonjakan harga global (ASEAN Power Grid). <i>Akui cabaran:</i> kos peralihan tinggi → perlu <b>peralihan adil</b> yang lindungi pengguna &amp; pekerja sektor lama.</p></div>
+  <div class="blk close"><span class="lab">Tutup <span class="t">4:10</span></span><p>"Kesimpulannya — kemampanan, ekonomi, keselamatan tenaga. Tenaga boleh diperbaharui bukan sekadar agenda; ia jaminan masa depan negara. Kerana <b>bumi lestari, ekonomi kukuh, dan negara berdaulat</b> menuntut kita bertindak hari ini. Sekian, terima kasih."</p></div>
+  <div class="deck-footer"><span>Fakta: Net Zero 2050 · NETR · RMK-13 RM611b · ASEAN Power Grid</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- EXAMPLE 2: INSIGHT -->
+<section class="slide" data-title="Contoh Insight">
+  <p class="kicker">Contoh Instant Insight / Worked Impromptu</p>
+  <h2 class="h2">"How can communication within a community be improved?"</h2>
+  <div class="goal"><b>Stand:</b> strong community communication rests on three pillars — accessible platforms, active listening, and inclusive participation.</div>
+  <div class="blk open"><span class="lab">Open <span class="t">~20s</span></span><p>"A community is only as strong as the conversations within it. So how do we improve it? Through three things: <b>platforms, listening, and inclusion.</b>"</p></div>
+  <div class="blk"><span class="lab">1 · Platform</span><p>Create shared spaces — community WhatsApp groups, town-halls, resident associations. <i>Example:</i> neighbourhoods report issues instantly to local leaders via digital groups.</p></div>
+  <div class="blk"><span class="lab">2 · Active Listening</span><p>Communication is two-way — leaders must listen, not just broadcast. <i>Example:</i> regular "jom bincang" sessions build trust.</p></div>
+  <div class="blk"><span class="lab">3 · Inclusion</span><p>Reach the often-left-out — elderly, youth, different languages. <i>Example:</i> bilingual notices + youth as digital bridges (ties to MADANI's <i>Hormat</i>).</p></div>
+  <div class="blk close"><span class="lab">Close <span class="t">~20s</span></span><p>"So — the right platforms, genuine listening, and true inclusion. When a community talks openly, it builds trust and unity. And a united community is the foundation of a united nation. Thank you."</p></div>
+  <div class="deck-footer"><span>PREP · pause after the triad · hit the verbs: build, listen, include</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+<!-- CLOSER -->
+<section class="slide center" data-title="Penutup">
+  <p class="kicker">Untuk Team / For the Team</p>
+  <h1 class="h1">Kuasai <span class="gradient-text">struktur</span>, bukan hafalan.</h1>
+  <p class="lede">Hafal 1 pembuka + 1 penutup kegemaran. Masa persediaan tinggal untuk isi 3 poin + fakta. Ambil pendirian jelas, kekal matang &amp; diplomatik.<br><span class="en">Memorise one opener + one closer; use prep time for 3 points + facts. Clear stand, mature &amp; diplomatic.</span></p>
+  <div style="margin-top:14px"><span class="pill">← → di komputer</span><span class="pill">skrol di telefon</span><span class="pill">Semoga berjaya! 💪</span></div>
+  <div class="deck-footer"><span>Panduan persendirian · sahkan butiran rasmi dengan SPA</span><span class="num"><span class="cur"></span>/<span class="tot"></span></span></div>
+  <div class="progress"></div>
+</section>
+
+</div>
+<div class="hint">← → navigasi · F skrin penuh</div>
+<script>
+(function(){
+  var deck=document.getElementById('deck'); if(!deck) return;
+  var slides=[].slice.call(deck.querySelectorAll('.slide'));
+  var i=0,total=slides.length,present=false;
+  var mq=window.matchMedia('(min-width:821px)');
+  var nav=document.createElement('div'); nav.className='navbar';
+  nav.innerHTML='<button type="button" data-d="-1" aria-label="Sebelum">‹</button><span class="pg"></span><button type="button" data-d="1" aria-label="Seterusnya">›</button>';
+  document.body.appendChild(nav);
+  function show(){
+    for(var n=0;n<slides.length;n++) slides[n].classList.toggle('is-active', n===i);
+    var s=slides[i];
+    s.querySelectorAll('.cur').forEach(function(e){e.textContent=i+1;});
+    s.querySelectorAll('.tot').forEach(function(e){e.textContent=total;});
+    var p=s.querySelector('.progress'); if(p) p.style.width=((i+1)/total*100)+'%';
+    var pg=nav.querySelector('.pg'); if(pg) pg.textContent=(i+1)+' / '+total;
+  }
+  function go(n){ i=Math.max(0,Math.min(total-1,n)); show(); }
+  function sync(){
+    if(mq.matches){ present=true; document.body.classList.add('present'); if(i<0||i>=total)i=0; show(); }
+    else { present=false; document.body.classList.remove('present'); for(var n=0;n<slides.length;n++) slides[n].classList.remove('is-active'); }
+  }
+  nav.addEventListener('click',function(e){ var b=e.target.closest('button'); if(b) go(i+parseInt(b.getAttribute('data-d'),10)); });
+  document.addEventListener('keydown',function(e){
+    if(!present) return;
+    if(['ArrowRight',' ','PageDown'].indexOf(e.key)>-1){ go(i+1); e.preventDefault(); }
+    else if(['ArrowLeft','PageUp'].indexOf(e.key)>-1){ go(i-1); e.preventDefault(); }
+    else if(e.key==='Home'){ go(0); } else if(e.key==='End'){ go(total-1); }
+    else if(e.key==='f'||e.key==='F'){ if(!document.fullscreenElement){ if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen(); } else { document.exitFullscreen(); } }
+  });
+  deck.addEventListener('click',function(e){
+    if(!present) return; if(e.target.closest('a')||e.target.closest('.navbar')) return;
+    var w=window.innerWidth; if(e.clientX>w*0.72) go(i+1); else if(e.clientX<w*0.28) go(i-1);
+  });
+  if(mq.addEventListener) mq.addEventListener('change',sync); else if(mq.addListener) mq.addListener(sync);
+  sync();
+})();
+</script>
+</body>
+</html>
