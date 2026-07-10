@@ -72,7 +72,7 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 📝 **Soalan &amp; jawapan sebenar PAC (deck telefon):** buka **[`01-pac/soalan-jawapan-pac.html`](01-pac/soalan-jawapan-pac.html)** — 3 soalan sebenar (Pengucapan Awam: *Tenaga Boleh Diperbaharui* · Instant Insight: *Community Communication* · Debat: *Festival Kebudayaan* — pihak Pencadang) dengan rangka jawapan penuh. Slideshow di komputer, skrol di telefon. / Real PAC Q&A deck: the 3 actual tasks with full answer frames; slideshow on desktop, scroll on phone.
 
-🤖 **Prompt AI persediaan PAC (kongsi kepada sesiapa):** [`01-pac/prompt-persediaan-pac.md`](01-pac/prompt-persediaan-pac.md) — satu prompt untuk salin &amp; tampal ke mana-mana AI (ChatGPT/Claude/Gemini); ia jadi jurulatih PAC untuk **latihan** &amp; **bantuan hari peperiksaan**, dwibahasa. / A copy-paste prompt anyone can drop into any AI to get a bilingual PAC coach for practice and exam-day help.
+🤖 **Prompt AI persediaan PAC (kongsi kepada sesiapa):** buka **[`01-pac/prompt-persediaan-pac.html`](01-pac/prompt-persediaan-pac.html)** (butang **Salin** satu-tekan — mesra telefon) atau versi teks [`01-pac/prompt-persediaan-pac.md`](01-pac/prompt-persediaan-pac.md). Satu prompt untuk tampal ke mana-mana AI (ChatGPT/Claude/Gemini); ia jadi jurulatih PAC untuk **latihan** &amp; **bantuan hari peperiksaan**, dwibahasa. / One-tap **Copy** page (phone-friendly) + text version — a paste-anywhere prompt that turns any AI into a bilingual PAC coach for practice and exam-day help.
 
 ---
 
