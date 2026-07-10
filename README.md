@@ -70,6 +70,8 @@ Persediaan untuk **Profession Assessment Centre (PAC)** dan **Ujian Kecergasan J
 
 🎯 **Buka · Isi · Tutup untuk 3 penilaian (mana-mana tajuk):** [`01-pac/rangka-3-penilaian.md`](01-pac/rangka-3-penilaian.md) · cheat-sheet cetak/telefon: **[`01-pac/rangka-3-penilaian-cheatsheet.html`](01-pac/rangka-3-penilaian-cheatsheet.html)** — pembukaan &amp; penutup universal + rangka Instant Insight / Pengucapan Awam / Debat. / Universal openings & closings + frames for all 3 oral tasks, any topic.
 
+📝 **Soalan &amp; jawapan sebenar PAC (deck telefon):** buka **[`01-pac/soalan-jawapan-pac.html`](01-pac/soalan-jawapan-pac.html)** — 3 soalan sebenar (Pengucapan Awam: *Tenaga Boleh Diperbaharui* · Instant Insight: *Community Communication* · Debat: *Festival Kebudayaan* — pihak Pencadang) dengan rangka jawapan penuh. Slideshow di komputer, skrol di telefon. / Real PAC Q&A deck: the 3 actual tasks with full answer frames; slideshow on desktop, scroll on phone.
+
 ---
 
 ## ✅ Tindakan Segera / Immediate Actions (mulai hari ini / starting today)
